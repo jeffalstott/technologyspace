@@ -1,8 +1,7 @@
 technologyspace
 ====
 This is the code accompanying the paper:
-Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2015). Mapping Technology Space by Normalizing Technology Relatedness Networks.
-Available at `arXiv:1509.07285 [physics.soc-ph]`__
+Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2015). "Mapping Technology Space by Normalizing Technology Relatedness Networks." Available at `arXiv:1509.07285 [physics.soc-ph]`__
 
 __ http://arxiv.org/abs/1509.07285
 
@@ -12,10 +11,10 @@ Dependencies
 - `powerlaw`__
 - `seaborn`__
 - `pyBiRewire`__
-- the standard scientific computing Python stack, which we recommend setting up by simply using the Anaconda Python distributon. Relevant packages include:
-  - numpy
-  - scipy
-  - matplotlib
+- the standard scientific computing Python stack, which we recommend setting up by simply using the `Anaconda Python distributon`__. Relevant packages include:
+- - numpy
+- - scipy
+- - matplotlib
 
 __ https://github.com/jeffalstott/powerlaw
 __ http://stanford.edu/~mwaskom/software/seaborn/
