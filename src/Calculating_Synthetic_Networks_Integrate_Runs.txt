@@ -1,0 +1,79 @@
+
+import pandas as pd
+from pylab import *
+
+class_system = 'IPC'
+n_controls = 1000
+
+# controls_directory = '../Data/Class_Relatedness_Networks/%s/'%class_system
+citations_controls_directory = '../Data/Class_Relatedness_Networks/citations/controls/%s/'%class_system
+coocurrence_controls_directory = '../Data/Class_Relatedness_Networks/cooccurrence/controls/%s/'%class_system
+
+# n_years = 1
+# if n_years is None or n_years=='all' or n_years=='cumulative':
+#     years_prefix = ''
+# else:
+#     years_prefix = '%i_years_'%n_years
+
+def running_stats(df_name,
+                  file_name,
+                  controls_directory=citations_controls_directory,
+                  n_controls=n_controls,
+                 ):
+    M = None
+    for randomization_id in range(n_controls):
+        if not randomization_id%100:
+            print(randomization_id)
+        f = '%s_%i.h5'%(file_name, randomization_id)
+        x = pd.read_hdf(controls_directory+f, df_name)
+
+        if M is None:
+            M = x
+            S = 0
+            continue
+        k = randomization_id+1
+        M_previous = M
+        M = M_previous.add( x.subtract(M_previous)/k )
+        S = ( x.subtract(M_previous).multiply( x.subtract(M) ) ).add(S)
+    standard_deviation = sqrt(S/(k-1))
+
+    return M, standard_deviation
+
+M, standard_deviation = running_stats('synthetic_citations_%s'%class_system,
+                                      years_prefix+'synthetic_control_citations_%s'%class_system,
+                                      citations_controls_directory
+                                     )
+
+# M_coclassification, std_coclassification = running_stats('synthetic_coclassification_%s'%class_system,
+#                                                          'synthetic_control_coclassification_%s'%class_system
+#                                                          )
+
+# M_cooccurrence, std_cooccurrence = running_stats('synthetic_cooccurrence_%s'%class_system,
+#                                                 'synthetic_control_cooccurrence_%s'%class_system
+#                                                )
+
+# for label in M_coclassification.labels:
+#     for item in M_coclassification.items:
+#         M.ix[label, item] = M_coclassification.ix[label, item]
+#         standard_deviation.ix[label, item] = std_coclassification.ix[label, item]
+
+# for label in M_cooccurrence.labels:
+#     for item in M_cooccurrence.items:
+#         M.ix[label, item] = M_cooccurrence.ix[label, item]
+#         standard_deviation.ix[label, item] = std_cooccurrence.ix[label, item]
+
+store = pd.HDFStore('../Data/class_relatedness_networks.h5',mode='a', table=True)
+store.put('/randomized_mean_%s'%class_system, M, 'table', append=False)
+store.put('/randomized_std_%s'%class_system, standard_deviation, 'table', append=False)
+
+z_scores = store['empirical_%s'%class_system].ix[M.labels].subtract(M).divide(standard_deviation)
+
+z_scores.values[where(z_scores==inf)]=nan 
+#All the cases where the z-scores are inf is where the 1,000 randomized controls said there should be 0 deviation, BUT
+#the empirical case was different anyway. In each of these cases, the empirical case was JUST slightly off. Sometimes
+#a floating point error, and sometimes off by 1 (the minimal amount for citation counts). We shall treat this as not actually
+#deviating, and so it becomes 0/0, which is equal to nan.
+
+store.put('/empirical_z_scores_%s'%class_system, z_scores, 'table', append=False)
+
+store.close()

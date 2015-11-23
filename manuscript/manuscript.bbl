@@ -1,0 +1,1954 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+    \entry{Neffke2013}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=91fab329e70147338d81cfff93e8c653}{Neffke}{N\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=253049b0872ef0d38193230b596cc548}{Henning}{H\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=91fab329e70147338d81cfff93e8c653}{Neffke}{N\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=253049b0872ef0d38193230b596cc548}{Henning}{H\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{275c23533a6668eea8b2d7ea8586caf9}
+      \strng{fullhash}{275c23533a6668eea8b2d7ea8586caf9}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Skill relatedness and firm diversification}
+      \field{abstract}{Because of the importance of human capital, a firm's choice of diversification targets will depend on whether these targets offer opportunities for leveraging existing human resources. We propose to quantify the similarity of different industries' human capital or skill requirements, that is, the industries' skill relatedness, by using information on cross-industry labor flows. Labor flows among industries can be used to identify skill relatedness, because individuals changing jobs will likely remain in industries that value the skills associated with their previous work. Estimates show that firms are far more likely to diversify into industries that have ties to the firms' core activities in terms of our skill-relatedness measure than into industries without such ties or into industries that are linked by value chain linkages or by classification-based relatedness. Copyright © 2012 John Wiley \& Sons, Ltd.}
+      \field{day}{01}
+      \field{issn}{1097-0266}
+      \field{journaltitle}{Strat. Mgmt. J.}
+      \field{langid}{english}
+      \field{month}{03}
+      \field{number}{3}
+      \field{title}{Skill relatedness and firm diversification}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{volume}{34}
+      \field{year}{2013}
+      \field{pages}{297\bibrangedash 316}
+      \verb{doi}
+      \verb 10.1002/smj.2014
+      \endverb
+      \verb{file}
+      \verb Neffke & Henning, 2013.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/KFFJ37FC/Neffke & Henning, 2013.pdf:application/pdf;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/J8UQ6XGZ/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/smj.2014/abstract
+      \endverb
+      \keyw{Diversification,human capital,labor flows,Relatedness,skills}
+    \endentry
+    \entry{Cristelli2013}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=2c45797d69bd7bd42e91e4ef5cb0c75c}{Cristelli}{C\bibinitperiod}{Matthieu}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=0745b5bcceade91efee73d0901c3a56c}{Gabrielli}{G\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eccff4fb2bb23eedd678569ca0bec3f8}{Tacchella}{T\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e7b00e797d140adf1c921c6c2e28ace3}{Caldarelli}{C\bibinitperiod}{Guido}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=bedcbf2fd34926bb7ce32c6d59918e0a}{Pietronero}{P\bibinitperiod}{Luciano}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=2c45797d69bd7bd42e91e4ef5cb0c75c}{Cristelli}{C\bibinitperiod}{Matthieu}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=0745b5bcceade91efee73d0901c3a56c}{Gabrielli}{G\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eccff4fb2bb23eedd678569ca0bec3f8}{Tacchella}{T\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e7b00e797d140adf1c921c6c2e28ace3}{Caldarelli}{C\bibinitperiod}{Guido}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=bedcbf2fd34926bb7ce32c6d59918e0a}{Pietronero}{P\bibinitperiod}{Luciano}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bd5141140d8a46b6fd92563215047941}
+      \strng{fullhash}{5e35b08c0dd17d095c20d52e0aa0e80e}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Measuring the Intangibles}
+      \field{abstract}{We investigate a recent methodology we have proposed to extract valuable information on the competitiveness of countries and complexity of products from trade data. Standard economic theories predict a high level of specialization of countries in specific industrial sectors. However, a direct analysis of the official databases of exported products by all countries shows that the actual situation is very different. Countries commonly considered as developed ones are extremely diversified, exporting a large variety of products from very simple to very complex. At the same time countries generally considered as less developed export only the products also exported by the majority of countries. This situation calls for the introduction of a non-monetary and non-income-based measure for country economy complexity which uncovers the hidden potential for development and growth. The statistical approach we present here consists of coupled non-linear maps relating the competitiveness/fitness of countries to the complexity of their products. The fixed point of this transformation defines a metrics for the fitness of countries and the complexity of products. We argue that the key point to properly extract the economic information is the non-linearity of the map which is necessary to bound the complexity of products by the fitness of the less competitive countries exporting them. We present a detailed comparison of the results of this approach directly with those of the Method of Reflections by Hidalgo and Hausmann, showing the better performance of our method and a more solid economic, scientific and consistent foundation.}
+      \field{day}{05}
+      \field{journaltitle}{{PLoS} {ONE}}
+      \field{month}{08}
+      \field{number}{8}
+      \field{shorttitle}{Measuring the Intangibles}
+      \field{title}{Measuring the Intangibles: A Metrics for the Economic Complexity of Countries and Products}
+      \field{urlday}{11}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{e70726}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0070726
+      \endverb
+      \verb{file}
+      \verb PLoS Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/FN6CW5X3/Cristelli et al. - 2013 - Measuring the Intangibles A Metrics for the Econo.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1371/journal.pone.0070726
+      \endverb
+    \endentry
+    \entry{Bryce2009}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=638f703b50f992ccab4a5ee5aa876f87}{Bryce}{B\bibinitperiod}{David\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=4d0e345fa875adce4572f0ab9b04f9a9}{Winter}{W\bibinitperiod}{Sidney\bibnamedelima G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=638f703b50f992ccab4a5ee5aa876f87}{Bryce}{B\bibinitperiod}{David\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=4d0e345fa875adce4572f0ab9b04f9a9}{Winter}{W\bibinitperiod}{Sidney\bibnamedelima G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6ec041d80e5abe28c6f32cac3a6ba56e}
+      \strng{fullhash}{6ec041d80e5abe28c6f32cac3a6ba56e}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{A General Interindustry Relatedness Index}
+      \field{day}{10}
+      \field{issn}{0025-1909}
+      \field{journaltitle}{Management Science}
+      \field{month}{07}
+      \field{number}{9}
+      \field{title}{A General Interindustry Relatedness Index}
+      \field{urlday}{11}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{55}
+      \field{year}{2009}
+      \field{pages}{1570\bibrangedash 1585}
+      \verb{doi}
+      \verb 10.1287/mnsc.1090.1040
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/U6GSW48V/mnsc.1090.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://pubsonline.informs.org/doi/abs/10.1287/mnsc.1090.1040
+      \endverb
+    \endentry
+    \entry{Hidalgo2007}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=8cf4e5d90c57fb5cd9f0934c7082f5b8}{Hidalgo}{H\bibinitperiod}{C\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e0fc4934fd6bda3f78c08343c6dd6ad4}{Klinger}{K\bibinitperiod}{B}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{Barabási}{B\bibinitperiod}{Albert-László}{A\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=37d0ba25cacb3f187136ada3050c399c}{Hausmann}{H\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=8cf4e5d90c57fb5cd9f0934c7082f5b8}{Hidalgo}{H\bibinitperiod}{C\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e0fc4934fd6bda3f78c08343c6dd6ad4}{Klinger}{K\bibinitperiod}{B}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{Barabási}{B\bibinitperiod}{Albert-László}{A\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=37d0ba25cacb3f187136ada3050c399c}{Hausmann}{H\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0fccab523ac9c8d310540a041091edee}
+      \strng{fullhash}{d8ca7c0b2ce95e9656ad7dce269e86f3}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{The product space conditions the development of nations.}
+      \field{abstract}{Economies grow by upgrading the products they produce and export. The technology, capital, institutions, and skills needed to make newer products are more easily adapted from some products than from others. Here, we study this network of relatedness between products, or "product space," finding that more-sophisticated products are located in a densely connected core whereas less-sophisticated products occupy a less-connected periphery. Empirically, countries move through the product space by developing goods close to those they currently produce. Most countries can reach the core only by traversing empirically infrequent distances, which may help explain why poor countries have trouble developing more competitive exports and fail to converge to the income levels of rich countries.}
+      \field{journaltitle}{Science}
+      \field{month}{07}
+      \field{number}{5837}
+      \field{title}{The product space conditions the development of nations.}
+      \field{volume}{317}
+      \field{year}{2007}
+      \field{pages}{482\bibrangedash 7}
+      \verb{doi}
+      \verb 10.1126/science.1144581
+      \endverb
+      \verb{file}
+      \verb Hidalgo_et_al_2007.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/VZD9W826/Hidalgo_et_al_2007.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencemag.org/content/317/5837/482
+      \endverb
+      \keyw{Jeff_Read,Technology_Development}
+    \endentry
+    \entry{Verspagen1997}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=0c93a48b98d80ac88ab8fb4e70e43e1a}{Verspagen}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=0c93a48b98d80ac88ab8fb4e70e43e1a}{Verspagen}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0c93a48b98d80ac88ab8fb4e70e43e1a}
+      \strng{fullhash}{0c93a48b98d80ac88ab8fb4e70e43e1a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Measuring Intersectoral Technology Spillovers}
+      \field{abstract}{This paper presents several new methods for measuring intersectoral knowledge spillovers, and applies these methods in an analysis of productivity growth in manufacturing for a cross-country, cross-sectional sample for the 1980s. It is argued that existing methods of measuring such intersectoral knowledge spillovers are mostly aimed at measuring so-called crent spillovers'. The methods developed here are aimed at measuring knowledge spillovers—an additional aspect of the spillover process. The empirical analysis shows that there are indeed differences between these two types of spillover measure.}
+      \field{day}{01}
+      \field{issn}{0953-5314}
+      \field{journaltitle}{Econ. Syst. Res.}
+      \field{month}{03}
+      \field{number}{1}
+      \field{shorttitle}{Measuring Intersectoral Technology Spillovers}
+      \field{title}{Measuring Intersectoral Technology Spillovers: Estimates from the European and {US} Patent Office Databases}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{volume}{9}
+      \field{year}{1997}
+      \field{pages}{47\bibrangedash 65}
+      \verb{doi}
+      \verb 10.1080/09535319700000004
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/9GSVM2VZ/09535319700000004.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/09535319700000004
+      \endverb
+    \endentry
+    \entry{Sanders2003}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=508a184352e40c78b043a59d03fa604b}{Sanders}{S\bibinitperiod}{Nathan\bibnamedelima J.}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=d0e57744f0f5e407e013ba46d67df927}{Gotelli}{G\bibinitperiod}{Nicholas\bibnamedelima J.}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=e7b36b487ee888531d79d5c473ddc34a}{Heller}{H\bibinitperiod}{Nicole\bibnamedelima E.}{N\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=725dd2bc96a5fd6b01a0276ffd938462}{Gordon}{G\bibinitperiod}{Deborah\bibnamedelima M.}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=508a184352e40c78b043a59d03fa604b}{Sanders}{S\bibinitperiod}{Nathan\bibnamedelima J.}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=d0e57744f0f5e407e013ba46d67df927}{Gotelli}{G\bibinitperiod}{Nicholas\bibnamedelima J.}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=e7b36b487ee888531d79d5c473ddc34a}{Heller}{H\bibinitperiod}{Nicole\bibnamedelima E.}{N\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=725dd2bc96a5fd6b01a0276ffd938462}{Gordon}{G\bibinitperiod}{Deborah\bibnamedelima M.}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{101857abdcc804a13804b5df4203e345}
+      \strng{fullhash}{92482e1e56ddda8b1a5a4d067f5aee7c}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Community disassembly by an invasive species}
+      \field{abstract}{Invasive species pose serious threats to community structure and ecosystem function worldwide. The impacts of invasive species can be more pervasive than simple reduction of species numbers. By using 7 years of data in a biological preserve in northern California, we documented the disassembly of native ant communities during an invasion by the Argentine ant. In sites without the Argentine ant, native ant communities exhibit significant species segregation, consistent with competitive dynamics. In sites with the Argentine ant, native ant communities appear random or weakly aggregated in species co-occurrence. Comparisons of the same sites before and after invasion indicate that the shift from a structured to a random community is rapid and occurs within a year of invasion. Our results show that invasive species not only reduce biodiversity but rapidly disassemble communities and, as a result, alter community organization among the species that persist.}
+      \field{day}{04}
+      \field{eprinttype}{pmid}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{{PNAS}}
+      \field{langid}{english}
+      \field{month}{03}
+      \field{number}{5}
+      \field{title}{Community disassembly by an invasive species}
+      \field{urlday}{11}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{100}
+      \field{year}{2003}
+      \field{pages}{2474\bibrangedash 2477}
+      \verb{doi}
+      \verb 10.1073/pnas.0437913100
+      \endverb
+      \verb{eprint}
+      \verb 12604772
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/683HBZK3/Sanders et al. - 2003 - Community disassembly by an invasive species.pdf:application/pdf;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/XJS65FH8/2474.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/100/5/2474
+      \endverb
+      \keyw{community organization‖null model‖Linepithema humile‖invasive ants}
+    \endentry
+    \entry{Ulrich2007}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=bc60b253abf4222c2c18085d60f0cd21}{Ulrich}{U\bibinitperiod}{Werner}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=752b7119372aa2c207b95d98a96d94f1}{J.\bibnamedelimi Gotelli}{J\bibinitperiod\bibinitdelim G\bibinitperiod}{Nicholas}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=bc60b253abf4222c2c18085d60f0cd21}{Ulrich}{U\bibinitperiod}{Werner}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=752b7119372aa2c207b95d98a96d94f1}{J.\bibnamedelimi Gotelli}{J\bibinitperiod\bibinitdelim G\bibinitperiod}{Nicholas}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{442a1c86f0ff3a64e1688e7be553a904}
+      \strng{fullhash}{442a1c86f0ff3a64e1688e7be553a904}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Disentangling community patterns of nestedness and species co-occurrence}
+      \field{abstract}{Two opposing patterns of meta-community organization are nestedness and negative species co-occurrence. Both patterns can be quantified with metrics that are applied to presence-absence matrices and tested with null model analysis. Previous meta-analyses have given conflicting results, with the same set of matrices apparently showing high nestedness (Wright et al. 1998) and negative species co-occurrence (Gotelli and McCabe 2002). We clarified the relationship between nestedness and co-occurrence by creating random matrices, altering them systematically to increase or decrease the degree of nestedness or co-occurrence, and then testing the resulting patterns with null models. Species co-occurrence is related to the degree of nestedness, but the sign of the relationship depends on how the test matrices were created. Low-fill matrices created by simple, uniform sampling generate negative correlations between nestedness and co-occurrence: negative species co-occurrence is associated with disordered matrices. However, high-fill matrices created by passive sampling generate the opposite pattern: negative species co-occurrence is associated with highly nested matrices. The patterns depend on which index of species co-occurrence is used, and they are not symmetric: systematic changes in the co-occurrence structure of a matrix are only weakly associated with changes in the pattern of nestedness. In all analyses, the fixed-fixed null model that preserves matrix row and column totals has lower type I and type II error probabilities than an equiprobable null model that relaxes row and column totals. The latter model is part of the popular nestedness temperature calculator, which detects nestedness too frequently in random matrices (type I statistical error). When compared to a valid null model, a matrix with negative species co-occurrence may be either highly nested or disordered, depending on the biological processes that determine row totals (number of species occurrences) and column totals (number of species per site).}
+      \field{day}{01}
+      \field{issn}{1600-0706}
+      \field{journaltitle}{Oikos}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Disentangling community patterns of nestedness and species co-occurrence}
+      \field{urlday}{11}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{116}
+      \field{year}{2007}
+      \field{pages}{2053\bibrangedash 2061}
+      \verb{doi}
+      \verb 10.1111/j.2007.0030-1299.16173.x
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/PV8T7DTZ/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.2007.0030-1299.16173.x/abstract
+      \endverb
+    \endentry
+    \entry{Stone1990}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=e0183a41c46d1319b0b1734e5f933b17}{Stone}{S\bibinitperiod}{Lewi}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6155e8c701fea4eb258ca839b35b7c46}{Roberts}{R\bibinitperiod}{Alan}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e0183a41c46d1319b0b1734e5f933b17}{Stone}{S\bibinitperiod}{Lewi}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6155e8c701fea4eb258ca839b35b7c46}{Roberts}{R\bibinitperiod}{Alan}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1a964877845268f95e4b3086d176e1ca}
+      \strng{fullhash}{1a964877845268f95e4b3086d176e1ca}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{The checkerboard score and species distributions}
+      \field{abstract}{There has been an ongoing controversy over how to decide whether the distribution of species is “random” — i.e., whether it is not greatly different from what it would be if species did not interact. We recently showed (Roberts and Stone (1990)) that in the case of the Vanuatu (formerly New Hebrides) avifauna, the number of islands shared by species pairs was incompatible with a “random” null hypothesis. However, it was difficult to determine the causes or direction of the community's exceptionality. In this paper, the latter problem is examined further. We use Diamond's (1975) notion of checkerboard distributions (originally developed as an indicator of competition) and construct a C-score statistic which quantifies “checkerboardedness”. This statistic is based on the way two species might colonise a pair of islands; whenever each species colonises a different island this adds 1 to the C-score. Following Connor and Simberloff (1979) we generate a “control group” of random colonisation patterns (matrices), and use the C-score to determine their checkerboard characteristics. As an alternative mode of enquiry, we make slight alterations to the observed data, repeating this process many times so as to obtain another “control group”. In both cases, when we compare the observed data for the Vanuatu avifauna and the Antillean bat communities with that given by their respective “control group”, we find that these communities have significantly large checkerboard distributions, making implausible the hypothesis that their species distributions are a product of random colonisation.}
+      \field{issn}{0029-8549, 1432-1939}
+      \field{journaltitle}{Oecologia}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{The checkerboard score and species distributions}
+      \field{urlday}{11}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{85}
+      \field{year}{1990}
+      \field{pages}{74\bibrangedash 79}
+      \verb{doi}
+      \verb 10.1007/BF00317345
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/PRAK6NPW/BF00317345.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/article/10.1007/BF00317345
+      \endverb
+      \keyw{Bird distributions,Checkerboard pattern,community structure,Ecology,Plant Sciences,random colonisation,Species interaction}
+    \endentry
+    \entry{Muller2008}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=4309c4a433ae4706aea2a1eab48ab88d}{Müller}{M\bibinitperiod}{Heiko}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=45cca61c8e580abca3893938b40a488b}{Mancuso}{M\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=4309c4a433ae4706aea2a1eab48ab88d}{Müller}{M\bibinitperiod}{Heiko}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=45cca61c8e580abca3893938b40a488b}{Mancuso}{M\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{69d6e6d2977ee5cb1500d836af65771f}
+      \strng{fullhash}{69d6e6d2977ee5cb1500d836af65771f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Identification and Analysis of Co-Occurrence Networks with {NetCutter}}
+      \field{abstract}{Background Co-occurrence analysis is a technique often applied in text mining, comparative genomics, and promoter analysis. The methodologies and statistical models used to evaluate the significance of association between co-occurring entities are quite diverse, however. Methodology/Principal Findings We present a general framework for co-occurrence analysis based on a bipartite graph representation of the data, a novel co-occurrence statistic, and software performing co-occurrence analysis as well as generation and analysis of co-occurrence networks. We show that the overall stringency of co-occurrence analysis depends critically on the choice of the null-model used to evaluate the significance of co-occurrence and find that random sampling from a complete permutation set of the bipartite graph permits co-occurrence analysis with optimal stringency. We show that the Poisson-binomial distribution is the most natural co-occurrence probability distribution when vertex degrees of the bipartite graph are variable, which is usually the case. Calculation of Poisson-binomial P-values is difficult, however. Therefore, we propose a fast bi-binomial approximation for calculation of P-values and show that this statistic is superior to other measures of association such as the Jaccard coefficient and the uncertainty coefficient. Furthermore, co-occurrence analysis of more than two entities can be performed using the same statistical model, which leads to increased signal-to-noise ratios, robustness towards noise, and the identification of implicit relationships between co-occurring entities. Using NetCutter, we identify a novel protein biosynthesis related set of genes that are frequently coordinately deregulated in human cancer related gene expression studies. NetCutter is available at http://bio.ifom-ieo-campus.it/NetCutter/). Conclusion Our approach can be applied to any set of categorical data where co-occurrence analysis might reveal functional relationships such as clinical parameters associated with cancer subtypes or SNPs associated with disease phenotypes. The stringency of our approach is expected to offer an advantage in a variety of applications.}
+      \field{day}{10}
+      \field{journaltitle}{{PLoS} {ONE}}
+      \field{month}{09}
+      \field{number}{9}
+      \field{title}{Identification and Analysis of Co-Occurrence Networks with {NetCutter}}
+      \field{urlday}{15}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{e3178}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0003178
+      \endverb
+      \verb{file}
+      \verb Müller_Mancuso_2008.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/SNI3I7TJ/Müller_Mancuso_2008.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1371/journal.pone.0003178
+      \endverb
+    \endentry
+    \entry{Yu2008}{article}{}
+      \name{labelname}{34}{}{%
+        {{hash=d2526c879bf9c50bd2607a0d60da4262}{Yu}{Y\bibinitperiod}{Haiyuan}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=c13dda7b4e046de0dc37c312f3a5aeea}{Braun}{B\bibinitperiod}{Pascal}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=6dee1d71d7280796bcdcc1f8fb637f41}{Yıldırım}{Y\bibinitperiod}{Muhammed\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=4b30b4e6752af56ff50ef8dbc661b0aa}{Lemmens}{L\bibinitperiod}{Irma}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=370bf32143c2fbc8a7b52921c394a7f1}{Venkatesan}{V\bibinitperiod}{Kavitha}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=b70a4102aa13ee70ff2fbc425878c9f2}{Sahalie}{S\bibinitperiod}{Julie}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d26ca72c3544d37b8a96f195d52c0464}{Hirozane-Kishikawa}{H\bibinithyphendelim K\bibinitperiod}{Tomoko}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1e851e743885ae56e26a9939509ea9c2}{Gebreab}{G\bibinitperiod}{Fana}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=0c3bb2625d92599a7df7d96021e7219d}{Li}{L\bibinitperiod}{Na}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=cfc2b40acf81ec5cccdee3681678e146}{Simonis}{S\bibinitperiod}{Nicolas}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=1665574d605f477d2b5f6556591e6d76}{Hao}{H\bibinitperiod}{Tong}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=fffcee46857dc957c387d8306612a841}{Rual}{R\bibinitperiod}{Jean-François}{J\bibinithyphendelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=ef489805b1f2d1fcae4ff11a6da895a7}{Dricot}{D\bibinitperiod}{Amélie}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c07c9931c86c8337b35cded5f5c9bd54}{Vazquez}{V\bibinitperiod}{Alexei}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=25ff09ad583f3cfb5a34f8297b373953}{Murray}{M\bibinitperiod}{Ryan\bibnamedelima R.}{R\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=1bcba09dd2a8c517665059a0eec1366a}{Simon}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=79cedc9b095b222cc91f6b787ad8229a}{Tardivo}{T\bibinitperiod}{Leah}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=48267a1ba3d8c243ead79634e02a7d69}{Tam}{T\bibinitperiod}{Stanley}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=a14fec41d23e165df12b4ada656fae26}{Svrzikapa}{S\bibinitperiod}{Nenad}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=6908b92c217e81c041fe70dc56e64b44}{Fan}{F\bibinitperiod}{Changyu}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=3ee0c83bb9e9163d57fba94be9014370}{Smet}{S\bibinitperiod}{Anne-Sophie}{A\bibinithyphendelim S\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{hash=e48974c288be107474dac414194d5884}{Motyl}{M\bibinitperiod}{Adriana}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a18156783814cb5d7aad1dcb7d2160ac}{Hudson}{H\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0d4b820e14e83c90d075663737b32535}{Park}{P\bibinitperiod}{Juyong}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db600dcfe831d8c153fd90b20e53217e}{Xin}{X\bibinitperiod}{Xiaofeng}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=5b2168715f8e8187d5371e76d3bd26a4}{Cusick}{C\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=171dc3098ce9c6f273eccd448650439a}{Moore}{M\bibinitperiod}{Troy}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=e842ca10fa96a0eb25936c70d2046cb4}{Boone}{B\bibinitperiod}{Charlie}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=7d041659633e29317689385f227d3173}{Snyder}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6d0c8ea4889cc317bb07b61344d80ffd}{Roth}{R\bibinitperiod}{Frederick\bibnamedelima P.}{F\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{Barabási}{B\bibinitperiod}{Albert-László}{A\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=4536ff9f86f9d44529606a2849d97ff6}{Tavernier}{T\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=ea5ceb1b3bb51ed2894f661e06f89982}{Hill}{H\bibinitperiod}{David\bibnamedelima E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=a9a720ff4b44ed5df3a02ffefca1bec5}{Vidal}{V\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{34}{}{%
+        {{hash=d2526c879bf9c50bd2607a0d60da4262}{Yu}{Y\bibinitperiod}{Haiyuan}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=c13dda7b4e046de0dc37c312f3a5aeea}{Braun}{B\bibinitperiod}{Pascal}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=6dee1d71d7280796bcdcc1f8fb637f41}{Yıldırım}{Y\bibinitperiod}{Muhammed\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=4b30b4e6752af56ff50ef8dbc661b0aa}{Lemmens}{L\bibinitperiod}{Irma}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=370bf32143c2fbc8a7b52921c394a7f1}{Venkatesan}{V\bibinitperiod}{Kavitha}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=b70a4102aa13ee70ff2fbc425878c9f2}{Sahalie}{S\bibinitperiod}{Julie}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d26ca72c3544d37b8a96f195d52c0464}{Hirozane-Kishikawa}{H\bibinithyphendelim K\bibinitperiod}{Tomoko}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1e851e743885ae56e26a9939509ea9c2}{Gebreab}{G\bibinitperiod}{Fana}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=0c3bb2625d92599a7df7d96021e7219d}{Li}{L\bibinitperiod}{Na}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=cfc2b40acf81ec5cccdee3681678e146}{Simonis}{S\bibinitperiod}{Nicolas}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=1665574d605f477d2b5f6556591e6d76}{Hao}{H\bibinitperiod}{Tong}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=fffcee46857dc957c387d8306612a841}{Rual}{R\bibinitperiod}{Jean-François}{J\bibinithyphendelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=ef489805b1f2d1fcae4ff11a6da895a7}{Dricot}{D\bibinitperiod}{Amélie}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c07c9931c86c8337b35cded5f5c9bd54}{Vazquez}{V\bibinitperiod}{Alexei}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=25ff09ad583f3cfb5a34f8297b373953}{Murray}{M\bibinitperiod}{Ryan\bibnamedelima R.}{R\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=1bcba09dd2a8c517665059a0eec1366a}{Simon}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=79cedc9b095b222cc91f6b787ad8229a}{Tardivo}{T\bibinitperiod}{Leah}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=48267a1ba3d8c243ead79634e02a7d69}{Tam}{T\bibinitperiod}{Stanley}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=a14fec41d23e165df12b4ada656fae26}{Svrzikapa}{S\bibinitperiod}{Nenad}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=6908b92c217e81c041fe70dc56e64b44}{Fan}{F\bibinitperiod}{Changyu}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=3ee0c83bb9e9163d57fba94be9014370}{Smet}{S\bibinitperiod}{Anne-Sophie}{A\bibinithyphendelim S\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{hash=e48974c288be107474dac414194d5884}{Motyl}{M\bibinitperiod}{Adriana}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a18156783814cb5d7aad1dcb7d2160ac}{Hudson}{H\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0d4b820e14e83c90d075663737b32535}{Park}{P\bibinitperiod}{Juyong}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db600dcfe831d8c153fd90b20e53217e}{Xin}{X\bibinitperiod}{Xiaofeng}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=5b2168715f8e8187d5371e76d3bd26a4}{Cusick}{C\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=171dc3098ce9c6f273eccd448650439a}{Moore}{M\bibinitperiod}{Troy}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=e842ca10fa96a0eb25936c70d2046cb4}{Boone}{B\bibinitperiod}{Charlie}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=7d041659633e29317689385f227d3173}{Snyder}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6d0c8ea4889cc317bb07b61344d80ffd}{Roth}{R\bibinitperiod}{Frederick\bibnamedelima P.}{F\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{Barabási}{B\bibinitperiod}{Albert-László}{A\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=4536ff9f86f9d44529606a2849d97ff6}{Tavernier}{T\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=ea5ceb1b3bb51ed2894f661e06f89982}{Hill}{H\bibinitperiod}{David\bibnamedelima E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=a9a720ff4b44ed5df3a02ffefca1bec5}{Vidal}{V\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{cd54c3f4a87f8f79c7b3842ebc2f5089}
+      \strng{fullhash}{143f658702f313ae7e8f11e83028397f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{High-Quality Binary Protein Interaction Map of the Yeast Interactome Network}
+      \field{abstract}{Current yeast interactome network maps contain several hundred molecular complexes with limited and somewhat controversial representation of direct binary interactions. We carried out a comparative quality assessment of current yeast interactome data sets, demonstrating that high-throughput yeast two-hybrid (Y2H) screening provides high-quality binary interaction information. Because a large fraction of the yeast binary interactome remains to be mapped, we developed an empirically controlled mapping framework to produce a “second-generation” high-quality, high-throughput Y2H data set covering ∼20\% of all yeast binary interactions. Both Y2H and affinity purification followed by mass spectrometry (AP/MS) data are of equally high quality but of a fundamentally different and complementary nature, resulting in networks with different topological and biological properties. Compared to co-complex interactome models, this binary map is enriched for transient signaling interactions and intercomplex connections with a highly significant clustering between essential proteins. Rather than correlating with essentiality, protein connectivity correlates with genetic pleiotropy.}
+      \field{day}{03}
+      \field{eprinttype}{pmid}
+      \field{issn}{0036-8075, 1095-9203}
+      \field{journaltitle}{Science}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{5898}
+      \field{title}{High-Quality Binary Protein Interaction Map of the Yeast Interactome Network}
+      \field{urlday}{11}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{322}
+      \field{year}{2008}
+      \field{pages}{104\bibrangedash 110}
+      \verb{doi}
+      \verb 10.1126/science.1158684
+      \endverb
+      \verb{eprint}
+      \verb 18719252
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/QSRRAA2Q/104.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencemag.org/content/322/5898/104
+      \endverb
+    \endentry
+    \entry{Rual2005}{article}{}
+      \name{labelname}{38}{}{%
+        {{hash=fffcee46857dc957c387d8306612a841}{Rual}{R\bibinitperiod}{Jean-François}{J\bibinithyphendelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=370bf32143c2fbc8a7b52921c394a7f1}{Venkatesan}{V\bibinitperiod}{Kavitha}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=1665574d605f477d2b5f6556591e6d76}{Hao}{H\bibinitperiod}{Tong}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d26ca72c3544d37b8a96f195d52c0464}{Hirozane-Kishikawa}{H\bibinithyphendelim K\bibinitperiod}{Tomoko}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ef489805b1f2d1fcae4ff11a6da895a7}{Dricot}{D\bibinitperiod}{Amélie}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=f7b82bb0e43430adcc2f78b727392107}{Li}{L\bibinitperiod}{Ning}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=7c0448631dab713de4d57b212c29be0e}{Berriz}{B\bibinitperiod}{Gabriel\bibnamedelima F.}{G\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=47a7dd7a4ed22db0a48c4af5a1363cf5}{Gibbons}{G\bibinitperiod}{Francis\bibnamedelima D.}{F\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=8c70452529b2686f9fd498670c856ee9}{Dreze}{D\bibinitperiod}{Matija}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f0191309688a7183a5979166927fb6f7}{Ayivi-Guedehoussou}{A\bibinithyphendelim G\bibinitperiod}{Nono}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=f0c4c00ed17d30f1665077a2c31ee31b}{Klitgord}{K\bibinitperiod}{Niels}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=1bcba09dd2a8c517665059a0eec1366a}{Simon}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=6bfb27e50f43617a6dd9e0e2dfe8b3d7}{Boxem}{B\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=57c9fbaed9b15acc70d63ac93d8b49a0}{Milstein}{M\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=92980da237dc53ff4c924228aad6f036}{Rosenberg}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=054dae1e6cd3068ca4ff31d97a7fcfea}{Goldberg}{G\bibinitperiod}{Debra\bibnamedelima S.}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=dfd92948f03afd2c1112df66a6e28508}{Zhang}{Z\bibinitperiod}{Lan\bibnamedelima V.}{L\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=1662511ae12b7f025bdd5f842113f79f}{Wong}{W\bibinitperiod}{Sharyl\bibnamedelima L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=bdee3fe2a3b3aca2e7415691404b5b4b}{Franklin}{F\bibinitperiod}{Giovanni}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=7416b0278cbb281dd3cd0a2d270b1db4}{Li}{L\bibinitperiod}{Siming}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6bddea5ed3afba673ebf7a054226d085}{Albala}{A\bibinitperiod}{Joanna\bibnamedelima S.}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=bf149d5aa5b6e35ec7fce48b9fc9c2e8}{Lim}{L\bibinitperiod}{Janghoo}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=adb3a5976019a995aaadfd4cf5d69192}{Fraughton}{F\bibinitperiod}{Carlene}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=4e9c0c995fe27cdaf0c47791a9a75654}{Llamosas}{L\bibinitperiod}{Estelle}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=8c1d2a76cc735a3bf8adaa3c936ae1a3}{Cevik}{C\bibinitperiod}{Sebiha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=8bc26458440b7c4e7286ea72591f613f}{Bex}{B\bibinitperiod}{Camille}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=fe01da087ed4999dc9b040134d78ab60}{Lamesch}{L\bibinitperiod}{Philippe}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=a48d85c864e83bc4ca75de8c0ca4bbc2}{Sikorski}{S\bibinitperiod}{Robert\bibnamedelima S.}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=624ba9d5ecc617eb3f6774a0cdf377c1}{Vandenhaute}{V\bibinitperiod}{Jean}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3a2e3ad7619a216a81d9e14227a25c8f}{Zoghbi}{Z\bibinitperiod}{Huda\bibnamedelima Y.}{H\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=4a8faed75b6c85bfa7c4714baafdf271}{Smolyar}{S\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5eabc7d37bc71a45097b9f19741cc71f}{Bosak}{B\bibinitperiod}{Stephanie}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=55b900a70d988c3185c806b8926537e8}{Sequerra}{S\bibinitperiod}{Reynaldo}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=a74f7f77be217de5b5cccf75cc938327}{Doucette-Stamm}{D\bibinithyphendelim S\bibinitperiod}{Lynn}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=5b2168715f8e8187d5371e76d3bd26a4}{Cusick}{C\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=ea5ceb1b3bb51ed2894f661e06f89982}{Hill}{H\bibinitperiod}{David\bibnamedelima E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=6d0c8ea4889cc317bb07b61344d80ffd}{Roth}{R\bibinitperiod}{Frederick\bibnamedelima P.}{F\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=a9a720ff4b44ed5df3a02ffefca1bec5}{Vidal}{V\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{38}{}{%
+        {{hash=fffcee46857dc957c387d8306612a841}{Rual}{R\bibinitperiod}{Jean-François}{J\bibinithyphendelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=370bf32143c2fbc8a7b52921c394a7f1}{Venkatesan}{V\bibinitperiod}{Kavitha}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=1665574d605f477d2b5f6556591e6d76}{Hao}{H\bibinitperiod}{Tong}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d26ca72c3544d37b8a96f195d52c0464}{Hirozane-Kishikawa}{H\bibinithyphendelim K\bibinitperiod}{Tomoko}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ef489805b1f2d1fcae4ff11a6da895a7}{Dricot}{D\bibinitperiod}{Amélie}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=f7b82bb0e43430adcc2f78b727392107}{Li}{L\bibinitperiod}{Ning}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=7c0448631dab713de4d57b212c29be0e}{Berriz}{B\bibinitperiod}{Gabriel\bibnamedelima F.}{G\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=47a7dd7a4ed22db0a48c4af5a1363cf5}{Gibbons}{G\bibinitperiod}{Francis\bibnamedelima D.}{F\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=8c70452529b2686f9fd498670c856ee9}{Dreze}{D\bibinitperiod}{Matija}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f0191309688a7183a5979166927fb6f7}{Ayivi-Guedehoussou}{A\bibinithyphendelim G\bibinitperiod}{Nono}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=f0c4c00ed17d30f1665077a2c31ee31b}{Klitgord}{K\bibinitperiod}{Niels}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=1bcba09dd2a8c517665059a0eec1366a}{Simon}{S\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=6bfb27e50f43617a6dd9e0e2dfe8b3d7}{Boxem}{B\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=57c9fbaed9b15acc70d63ac93d8b49a0}{Milstein}{M\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=92980da237dc53ff4c924228aad6f036}{Rosenberg}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=054dae1e6cd3068ca4ff31d97a7fcfea}{Goldberg}{G\bibinitperiod}{Debra\bibnamedelima S.}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=dfd92948f03afd2c1112df66a6e28508}{Zhang}{Z\bibinitperiod}{Lan\bibnamedelima V.}{L\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=1662511ae12b7f025bdd5f842113f79f}{Wong}{W\bibinitperiod}{Sharyl\bibnamedelima L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=bdee3fe2a3b3aca2e7415691404b5b4b}{Franklin}{F\bibinitperiod}{Giovanni}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=7416b0278cbb281dd3cd0a2d270b1db4}{Li}{L\bibinitperiod}{Siming}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6bddea5ed3afba673ebf7a054226d085}{Albala}{A\bibinitperiod}{Joanna\bibnamedelima S.}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=bf149d5aa5b6e35ec7fce48b9fc9c2e8}{Lim}{L\bibinitperiod}{Janghoo}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=adb3a5976019a995aaadfd4cf5d69192}{Fraughton}{F\bibinitperiod}{Carlene}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=4e9c0c995fe27cdaf0c47791a9a75654}{Llamosas}{L\bibinitperiod}{Estelle}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=8c1d2a76cc735a3bf8adaa3c936ae1a3}{Cevik}{C\bibinitperiod}{Sebiha}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=8bc26458440b7c4e7286ea72591f613f}{Bex}{B\bibinitperiod}{Camille}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=fe01da087ed4999dc9b040134d78ab60}{Lamesch}{L\bibinitperiod}{Philippe}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=a48d85c864e83bc4ca75de8c0ca4bbc2}{Sikorski}{S\bibinitperiod}{Robert\bibnamedelima S.}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=624ba9d5ecc617eb3f6774a0cdf377c1}{Vandenhaute}{V\bibinitperiod}{Jean}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3a2e3ad7619a216a81d9e14227a25c8f}{Zoghbi}{Z\bibinitperiod}{Huda\bibnamedelima Y.}{H\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=4a8faed75b6c85bfa7c4714baafdf271}{Smolyar}{S\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5eabc7d37bc71a45097b9f19741cc71f}{Bosak}{B\bibinitperiod}{Stephanie}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=55b900a70d988c3185c806b8926537e8}{Sequerra}{S\bibinitperiod}{Reynaldo}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=a74f7f77be217de5b5cccf75cc938327}{Doucette-Stamm}{D\bibinithyphendelim S\bibinitperiod}{Lynn}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=5b2168715f8e8187d5371e76d3bd26a4}{Cusick}{C\bibinitperiod}{Michael\bibnamedelima E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=ea5ceb1b3bb51ed2894f661e06f89982}{Hill}{H\bibinitperiod}{David\bibnamedelima E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=6d0c8ea4889cc317bb07b61344d80ffd}{Roth}{R\bibinitperiod}{Frederick\bibnamedelima P.}{F\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=a9a720ff4b44ed5df3a02ffefca1bec5}{Vidal}{V\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d96534f79785b1c8dc61151914e22e54}
+      \strng{fullhash}{16604976d321ad4718af7bb62cbc386d}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Towards a proteome-scale map of the human protein–protein interaction network}
+      \field{abstract}{Systematic mapping of protein–protein interactions, or 'interactome' mapping, was initiated in model organisms, starting with defined biological processes and then expanding to the scale of the proteome. Although far from complete, such maps have revealed global topological and dynamic features of interactome networks that relate to known biological properties, suggesting that a human interactome map will provide insight into development and disease mechanisms at a systems level. Here we describe an initial version of a proteome-scale map of human binary protein–protein interactions. Using a stringent, high-throughput yeast two-hybrid system, we tested pairwise interactions among the products of 8,100 currently available Gateway-cloned open reading frames and detected 2,800 interactions. This data set, called CCSB-HI1, has a verification rate of 78\% as revealed by an independent co-affinity purification assay, and correlates significantly with other biological attributes. The CCSB-HI1 data set increases by 70\% the set of available binary interactions within the tested space and reveals more than 300 new connections to over 100 disease-associated proteins. This work represents an important step towards a systematic and comprehensive human interactome project.}
+      \field{day}{20}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{7062}
+      \field{title}{Towards a proteome-scale map of the human protein–protein interaction network}
+      \field{urlday}{17}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{437}
+      \field{year}{2005}
+      \field{pages}{1173\bibrangedash 1178}
+      \verb{doi}
+      \verb 10.1038/nature04209
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/QCJ8SER5/nature04209.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v437/n7062/abs/nature04209.html
+      \endverb
+    \endentry
+    \entry{Shiffrin2004}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=870e5b3357b3de467502e5c6ea2f20f4}{Shiffrin}{S\bibinitperiod}{Richard\bibnamedelima M.}{R\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=3c89b0ebe9eb23ab5f4a9cd7da804646}{Börner}{B\bibinitperiod}{Katy}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=870e5b3357b3de467502e5c6ea2f20f4}{Shiffrin}{S\bibinitperiod}{Richard\bibnamedelima M.}{R\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=3c89b0ebe9eb23ab5f4a9cd7da804646}{Börner}{B\bibinitperiod}{Katy}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7b6789da4d93681905c63c13b5acb95f}
+      \strng{fullhash}{7b6789da4d93681905c63c13b5acb95f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Mapping knowledge domains}
+      \field{day}{06}
+      \field{eprinttype}{pmid}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{issue}{suppl 1}
+      \field{journaltitle}{{PNAS}}
+      \field{langid}{english}
+      \field{month}{04}
+      \field{title}{Mapping knowledge domains}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{volume}{101}
+      \field{year}{2004}
+      \field{pages}{5183\bibrangedash 5185}
+      \verb{doi}
+      \verb 10.1073/pnas.0307852100
+      \endverb
+      \verb{eprint}
+      \verb 14742869
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/5GEQE9NW/Shiffrin and Börner - 2004 - Mapping knowledge domains.pdf:application/pdf;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/3CWJF8NZ/5183.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/101/suppl_1/5183
+      \endverb
+    \endentry
+    \entry{Rafols2010}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=e2b3f933af6203c7f3a2d73557e682f5}{Rafols}{R\bibinitperiod}{Ismael}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=4454ebe3e2bff9fef0eaed69d04a1556}{Porter}{P\bibinitperiod}{Alan\bibnamedelima L.}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=6f1c24edb4545dcdef3a4913ef0858ac}{Leydesdorff}{L\bibinitperiod}{Loet}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e2b3f933af6203c7f3a2d73557e682f5}{Rafols}{R\bibinitperiod}{Ismael}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=4454ebe3e2bff9fef0eaed69d04a1556}{Porter}{P\bibinitperiod}{Alan\bibnamedelima L.}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=6f1c24edb4545dcdef3a4913ef0858ac}{Leydesdorff}{L\bibinitperiod}{Loet}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3be673e5989041591bc5dffe3c64c166}
+      \strng{fullhash}{3be673e5989041591bc5dffe3c64c166}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Science overlay maps}
+      \field{abstract}{We present a novel approach to visually locate bodies of research within the sciences, both at each moment of time and dynamically. This article describes how this approach fits with other efforts to locally and globally map scientific outputs. We then show how these science overlay maps help benchmarking, explore collaborations, and track temporal changes, using examples of universities, corporations, funding agencies, and research topics. We address their conditions of application and discuss advantages, downsides, and limitations. Overlay maps especially help investigate the increasing number of scientific developments and organizations that do not fit within traditional disciplinary categories. We make these tools available online to enable researchers to explore the ongoing sociocognitive transformations of science and technology systems.}
+      \field{day}{01}
+      \field{issn}{1532-2890}
+      \field{journaltitle}{J. Am. Soc. Inf. Sci.}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{number}{9}
+      \field{shorttitle}{Science overlay maps}
+      \field{title}{Science overlay maps: A new tool for research policy and library management}
+      \field{urlday}{24}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{volume}{61}
+      \field{year}{2010}
+      \field{pages}{1871\bibrangedash 1887}
+      \verb{doi}
+      \verb 10.1002/asi.21368
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/T3K2ZHUK/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/asi.21368/abstract
+      \endverb
+    \endentry
+    \entry{Leydesdorff2013}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=6f1c24edb4545dcdef3a4913ef0858ac}{Leydesdorff}{L\bibinitperiod}{Loet}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=a638a6c19abcaa6774958bf45361211a}{Carley}{C\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=e2b3f933af6203c7f3a2d73557e682f5}{Rafols}{R\bibinitperiod}{Ismael}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=6f1c24edb4545dcdef3a4913ef0858ac}{Leydesdorff}{L\bibinitperiod}{Loet}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=a638a6c19abcaa6774958bf45361211a}{Carley}{C\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=e2b3f933af6203c7f3a2d73557e682f5}{Rafols}{R\bibinitperiod}{Ismael}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5da76c5d485837c0c84b15d7fe490edf}
+      \strng{fullhash}{5da76c5d485837c0c84b15d7fe490edf}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Global maps of science based on the new Web-of-Science categories}
+      \field{abstract}{In August 2011, Thomson Reuters launched version 5 of the Science and Social Science Citation Index in the Web of Science (WoS). Among other things, the 222 ISI Subject Categories (SCs) for these two databases in version 4 of WoS were renamed and extended to 225 WoS Categories (WCs). A new set of 151 Subject Areas was added, but at a higher level of aggregation. Perhaps confusingly, these Subject Areas are now abbreviated “SC” in the download, whereas “WC” is used for WoS Categories. Since we previously used the ISI SCs as the baseline for a global map in Pajek (Pajek is freely available at http://​vlado.​fmf.​uni-lj.​si/​pub/​networks/​pajek/​) (Rafols et al., Journal of the American Society for Information Science and Technology 61:1871–1887, 2010) and brought this facility online (at http://​www.​leydesdorff.​net/​overlaytoolkit), we recalibrated this map for the new WC categories using the Journal Citation Reports 2010. In the new installation, the base maps can also be made using VOSviewer (VOSviewer is freely available at http://​www.​VOSviewer.​com/​) (Van Eck and Waltman, Scientometrics 84:523–538, 2010).}
+      \field{issn}{0138-9130, 1588-2861}
+      \field{journaltitle}{Scientometrics}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Global maps of science based on the new Web-of-Science categories}
+      \field{urlday}{12}
+      \field{urlmonth}{08}
+      \field{urlyear}{2015}
+      \field{volume}{94}
+      \field{year}{2013}
+      \field{pages}{589\bibrangedash 593}
+      \verb{doi}
+      \verb 10.1007/s11192-012-0784-8
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/VX452UZZ/Leydesdorff et al. - 2012 - Global maps of science based on the new Web-of-Sci.pdf:application/pdf;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/RJHIPXZ8/10.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/article/10.1007/s11192-012-0784-8
+      \endverb
+      \keyw{Information Storage and Retrieval,Interdisciplinarity,Interdisciplinary Studies,Library Science,Map,Overlay,Subject categories,Web of Science}
+    \endentry
+    \entry{Uzzi2013}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=e9d3ae0030f24e3f195d893af719933f}{Uzzi}{U\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5557a0d8b4987cc5ef9114b368b342e3}{Mukherjee}{M\bibinitperiod}{Satyam}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=c7fdfcc270dee174b8e9f7b73515fe77}{Stringer}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=bc1422a3d557b26fc2d38f3d65906ee6}{Jones}{J\bibinitperiod}{Ben}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=e9d3ae0030f24e3f195d893af719933f}{Uzzi}{U\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5557a0d8b4987cc5ef9114b368b342e3}{Mukherjee}{M\bibinitperiod}{Satyam}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=c7fdfcc270dee174b8e9f7b73515fe77}{Stringer}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=bc1422a3d557b26fc2d38f3d65906ee6}{Jones}{J\bibinitperiod}{Ben}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fec3fd43e45c0dc65dddc9465f3749c6}
+      \strng{fullhash}{bf9483cee80d97455fb22893e8bcfd72}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Atypical Combinations and Scientific Impact}
+      \field{abstract}{Novelty is an essential feature of creative ideas, yet the building blocks of new ideas are often embodied in existing knowledge. From this perspective, balancing atypical knowledge with conventional knowledge may be critical to the link between innovativeness and impact. Our analysis of 17.9 million papers spanning all scientific fields suggests that science follows a nearly universal pattern: The highest-impact science is primarily grounded in exceptionally conventional combinations of prior work yet simultaneously features an intrusion of unusual combinations. Papers of this type were twice as likely to be highly cited works. Novel combinations of prior work are rare, yet teams are 37.7\% more likely than solo authors to insert novel combinations into familiar knowledge domains. Making an Impact How big a role do unconventional combinations of existing knowledge play in the impact of a scientific paper? To examine this question, Uzzi et al. (p. 468) studied 17.9 million research articles across five decades of the Web of Science, the largest repository of scientific research. Scientific work typically appeared to draw on highly conventional, familiar mixtures of knowledge. The highest-impact papers were not the ones that had the greatest novelty, but had a combination of novelty and otherwise conventional combinations of prior work.}
+      \field{day}{25}
+      \field{eprinttype}{pmid}
+      \field{issn}{0036-8075, 1095-9203}
+      \field{journaltitle}{Science}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{6157}
+      \field{title}{Atypical Combinations and Scientific Impact}
+      \field{urlday}{09}
+      \field{urlmonth}{09}
+      \field{urlyear}{2015}
+      \field{volume}{342}
+      \field{year}{2013}
+      \field{pages}{468\bibrangedash 472}
+      \verb{doi}
+      \verb 10.1126/science.1240474
+      \endverb
+      \verb{eprint}
+      \verb 24159044
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/273QB2JP/468.html:text/html;Uzzi et al_2013.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/WXNV9VMA/Uzzi et al_2013.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencemag.org/content/342/6157/468
+      \endverb
+    \endentry
+    \entry{Kay2014}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=f2a7e04443237d13979cb34246a8c431}{Kay}{K\bibinitperiod}{Luciano}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=df821ddb7df00a4b37ba226e8827e5eb}{Newman}{N\bibinitperiod}{Nils}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=90e316ddfb749ebc4f278930585a6c2a}{Youtie}{Y\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=21ab72e9e5d578541cb28c9a9bd13c93}{Porter}{P\bibinitperiod}{Alan\bibnamedelima L}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f2a7e04443237d13979cb34246a8c431}{Kay}{K\bibinitperiod}{Luciano}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=df821ddb7df00a4b37ba226e8827e5eb}{Newman}{N\bibinitperiod}{Nils}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=90e316ddfb749ebc4f278930585a6c2a}{Youtie}{Y\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=21ab72e9e5d578541cb28c9a9bd13c93}{Porter}{P\bibinitperiod}{Alan\bibnamedelima L}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{dc5239dce4f65c3d38a5fe01c632224f}
+      \strng{fullhash}{859ebc6fe293c43535f78175674dea5f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Patent Overlay Mapping : Visualizing Technological Distance}
+      \field{journaltitle}{J. Assoc. Inf. Sci. Technol.}
+      \field{number}{12}
+      \field{title}{Patent Overlay Mapping : Visualizing Technological Distance}
+      \field{volume}{65}
+      \field{year}{2014}
+      \field{pages}{2432\bibrangedash 2443}
+      \verb{doi}
+      \verb 10.1002/asi
+      \endverb
+      \verb{file}
+      \verb Kay_et_al_2014.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/DVR4ICP5/Kay_et_al_2014.pdf:application/pdf
+      \endverb
+      \keyw{Jeff_Read,Technology_Development}
+    \endentry
+    \entry{Leydesdorff2014}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=6f1c24edb4545dcdef3a4913ef0858ac}{Leydesdorff}{L\bibinitperiod}{Loet}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=a4c87bc4caf4c664bab0c5f34d071c87}{Kushnir}{K\bibinitperiod}{Duncan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=e2b3f933af6203c7f3a2d73557e682f5}{Rafols}{R\bibinitperiod}{Ismael}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=6f1c24edb4545dcdef3a4913ef0858ac}{Leydesdorff}{L\bibinitperiod}{Loet}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=a4c87bc4caf4c664bab0c5f34d071c87}{Kushnir}{K\bibinitperiod}{Duncan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=e2b3f933af6203c7f3a2d73557e682f5}{Rafols}{R\bibinitperiod}{Ismael}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{313015e3865ae96f03957e78b0d3a902}
+      \strng{fullhash}{313015e3865ae96f03957e78b0d3a902}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Interactive overlay maps for {US} patent ({USPTO}) data based on International Patent Classification ({IPC})}
+      \field{issn}{1119201209}
+      \field{journaltitle}{Scientometrics}
+      \field{number}{3}
+      \field{title}{Interactive overlay maps for {US} patent ({USPTO}) data based on International Patent Classification ({IPC})}
+      \field{volume}{98}
+      \field{year}{2014}
+      \field{pages}{1583\bibrangedash 1599}
+      \verb{doi}
+      \verb 10.1007/s11192-012-0923-2
+      \endverb
+      \verb{file}
+      \verb Leydesdorff_Kushnir_Rafols_2012.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/W8HSSGUG/Leydesdorff_Kushnir_Rafols_2012.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s11192-012-0923-2
+      \endverb
+      \keyw{amsterdam school of communication,ascor,classification á overlay,ipc á patent á,l,leydesdorff,map á uspto á,Research,university of amsterdam}
+    \endentry
+    \entry{Breschi2003}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=278a0ad33ab0e59b60582c9269e3fa4e}{Breschi}{B\bibinitperiod}{Stefano}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d2558ac8c5747d85c993837d1f99feab}{Lissoni}{L\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=23386c8a77ef739b12702f03dd170aad}{Malerba}{M\bibinitperiod}{Franco}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=278a0ad33ab0e59b60582c9269e3fa4e}{Breschi}{B\bibinitperiod}{Stefano}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d2558ac8c5747d85c993837d1f99feab}{Lissoni}{L\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=23386c8a77ef739b12702f03dd170aad}{Malerba}{M\bibinitperiod}{Franco}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6ea0aa729bd22e97621228d368170b20}
+      \strng{fullhash}{6ea0aa729bd22e97621228d368170b20}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Knowledge-relatedness in firm technological diversification}
+      \field{abstract}{This paper claims that knowledge-relatedness is a key factor in affecting firms’ technological diversification. The hypothesis is tested that firms extend the range of their innovative activities in a non-random way. Specifically, we test the extent to which firms diversify their innovative activities across related technological fields, i.e. fields that share a common knowledge base and rely upon common heuristics and scientific principles. The paper proposes an original measure of knowledge-relatedness, using co-classification codes contained in patent documents, and examines the patterns of technological diversification of the whole population of firms from the United States, Italy, France, UK, Germany, and Japan patenting to the European Patent Office from 1982 to 1993. Robust evidence is found that knowledge-relatedness is a major feature of firms’ innovative activities.}
+      \field{issn}{0048-7333}
+      \field{journaltitle}{Research Policy}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Knowledge-relatedness in firm technological diversification}
+      \field{urlday}{26}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{volume}{32}
+      \field{year}{2003}
+      \field{pages}{69\bibrangedash 87}
+      \verb{doi}
+      \verb 10.1016/S0048-7333(02)00004-5
+      \endverb
+      \verb{file}
+      \verb Breschi et al., 2003.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/FKA6SRU5/Breschi et al., 2003.pdf:application/pdf;ScienceDirect Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/4QWX9NQC/Breschi et al. - 2003 - Knowledge-relatedness in firm technological divers.pdf:application/pdf;ScienceDirect Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/RGTRZF4P/S0048733302000045.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0048733302000045
+      \endverb
+      \keyw{Co-classification,Diversification,Patents,Relatedness}
+    \endentry
+    \entry{Kauffman2000}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=92969e9fd71fe821f1e25561028ca907}{Kauffman}{K\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=9e901bdd97650f345dbda3c3c35b0289}{Lobo}{L\bibinitperiod}{José}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9be4a654a9f21116f82f5c676a62d9e3}{Macready}{M\bibinitperiod}{William\bibnamedelima G.}{W\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=92969e9fd71fe821f1e25561028ca907}{Kauffman}{K\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=9e901bdd97650f345dbda3c3c35b0289}{Lobo}{L\bibinitperiod}{José}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9be4a654a9f21116f82f5c676a62d9e3}{Macready}{M\bibinitperiod}{William\bibnamedelima G.}{W\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7789a710a6bdbb9f83df754304f58a34}
+      \strng{fullhash}{7789a710a6bdbb9f83df754304f58a34}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Optimal search on a technology landscape}
+      \field{abstract}{We address the question of how a firm’s current location in the space of technological possibilities constrain its search for technological improvements. We formalize a quantitative notion of distance between technologies — encompassing the distinction between evolutionary changes (small distance) versus revolutionary change (large distance) — and introduce a technology landscape into an otherwise standard dynamic programming setting where the optimal strategy is to assign a reservation price to each possible technology. Technological search is modeled as movement, constrained by the cost of search, on a technology landscape. Simulations are presented on a stylized technology landscape while analytic results are derived using landscapes that are similar to Markov random fields. We find that early in the search for technological improvements, if the initial position is poor or average, it is optimal to search far away on the technology landscape; but as the firm succeeds in finding technological improvements it is optimal to confine search to a local region of the landscape.}
+      \field{issn}{0167-2681}
+      \field{journaltitle}{Journal of Economic Behavior \& Organization}
+      \field{month}{10}
+      \field{number}{2}
+      \field{title}{Optimal search on a technology landscape}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{volume}{43}
+      \field{year}{2000}
+      \field{pages}{141\bibrangedash 166}
+      \verb{doi}
+      \verb 10.1016/S0167-2681(00)00114-1
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/8AFJ6BZD/S0167268100001141.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0167268100001141
+      \endverb
+      \keyw{Combinatorial optimization,Optimal search,Production recipes,Search distance,Technology landscape}
+    \endentry
+    \entry{Strumsky2002}{report}{}
+      \name{labelname}{2}{}{%
+        {{hash=609c057b95a9274368d92726b7469829}{Strumsky}{S\bibinitperiod}{Deborah}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=9e901bdd97650f345dbda3c3c35b0289}{Lobo}{L\bibinitperiod}{José}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=609c057b95a9274368d92726b7469829}{Strumsky}{S\bibinitperiod}{Deborah}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=9e901bdd97650f345dbda3c3c35b0289}{Lobo}{L\bibinitperiod}{José}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Working Paper 03-02-003 (Santa Fe Institute, 2002)}%
+      }
+      \strng{namehash}{e31ac681534ff58fe6628d61558eb3e5}
+      \strng{fullhash}{e31ac681534ff58fe6628d61558eb3e5}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{“If it Isn’t Broken, Don’t Fix it}
+      \field{shorttitle}{“If it Isn’t Broken, Don’t Fix it}
+      \field{title}{“If it Isn’t Broken, Don’t Fix it:” Extremal Search on a Technology Landscape}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{year}{2002}
+      \verb{file}
+      \verb [PDF] from santafe.edu:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/PRXMT2AE/Strumsky and Lobo - 2002 - “If it Isn’t Broken, Don’t Fix it” Extremal Searc.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.santafe.edu/media/workingpapers/03-02-003.pdf
+      \endverb
+    \endentry
+    \entry{Fleming2004}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=4889af2694aa4a793fe554e5a70eebe8}{Fleming}{F\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=53fb3cfc9c165c7c8fed4824007026db}{Sorenson}{S\bibinitperiod}{Olav}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=4889af2694aa4a793fe554e5a70eebe8}{Fleming}{F\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=53fb3cfc9c165c7c8fed4824007026db}{Sorenson}{S\bibinitperiod}{Olav}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2d8887b792423043413f9c2a8edf0564}
+      \strng{fullhash}{2d8887b792423043413f9c2a8edf0564}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Science as a map in technological search}
+      \field{abstract}{A large body of work argues that scientific research increases the rate of technological advance, and with it economic growth. The precise mechanism through which science accelerates the rate of invention, however, remains an open question. Conceptualizing invention as a combinatorial search process, this paper argues that science alters inventors' search processes, by leading them more directly to useful combinations, eliminating fruitless paths of research, and motivating them to continue even in the face of negative feedback. These mechanisms prove most useful when inventors attempt to combine highly coupled components; therefore, the value of scientific research to invention varies systematically across applications. Empirical analyses of patent data support this thesis. Copyright © 2004 John Wiley \& Sons, Ltd.}
+      \field{day}{01}
+      \field{issn}{1097-0266}
+      \field{journaltitle}{Strat. Mgmt. J.}
+      \field{langid}{english}
+      \field{month}{08}
+      \field{number}{8-9}
+      \field{title}{Science as a map in technological search}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{volume}{25}
+      \field{year}{2004}
+      \field{pages}{909\bibrangedash 928}
+      \verb{doi}
+      \verb 10.1002/smj.384
+      \endverb
+      \verb{file}
+      \verb Fleming_Sorenson_2004.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/9C7A9DAB/Fleming_Sorenson_2004.pdf:application/pdf;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/IWGHP2H8/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/smj.384/abstract
+      \endverb
+      \keyw{cou-,coupling,invention,Invention,recombinant search,recombinant search,Science,science}
+    \endentry
+    \entry{Silverberg2005}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=df4ae5e1cd34f76f1f3d5389b6d71c40}{Silverberg}{S\bibinitperiod}{Gerald}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0c93a48b98d80ac88ab8fb4e70e43e1a}{Verspagen}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=df4ae5e1cd34f76f1f3d5389b6d71c40}{Silverberg}{S\bibinitperiod}{Gerald}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0c93a48b98d80ac88ab8fb4e70e43e1a}{Verspagen}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b0bd52201383da0460f7a4d72f986f6d}
+      \strng{fullhash}{b0bd52201383da0460f7a4d72f986f6d}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{A percolation model of innovation in complex technology spaces}
+      \field{issn}{01651889}
+      \field{journaltitle}{J. Econ. Dyn. Control}
+      \field{langid}{english}
+      \field{month}{01}
+      \field{number}{1-2}
+      \field{title}{A percolation model of innovation in complex technology spaces}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{29}
+      \field{year}{2005}
+      \field{pages}{225\bibrangedash 244}
+      \verb{doi}
+      \verb 10.1016/j.jedc.2003.05.005
+      \endverb
+      \verb{file}
+      \verb Silverberg & Verspagen, 2005.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/I6KKCEJS/Silverberg & Verspagen, 2005.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0165188904000132
+      \endverb
+    \endentry
+    \entry{Frenken2006}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=f7dc6d099b1435d52f844e5f4c521050}{Frenken}{F\bibinitperiod}{Koen}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f7dc6d099b1435d52f844e5f4c521050}{Frenken}{F\bibinitperiod}{Koen}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Edward Elgar Pub.}%
+      }
+      \strng{namehash}{f7dc6d099b1435d52f844e5f4c521050}
+      \strng{fullhash}{f7dc6d099b1435d52f844e5f4c521050}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Innovation, Evolution and Complexity Theory}
+      \field{abstract}{The motivation behind this book is the desire to integrate complexity theory into economic models of technological evolution. By means of developing an evolutionary model of complex technological systems, the book contributes to the neo-Schumpetarian literature on innovation, diffusion and technological paradigms.}
+      \field{day}{01}
+      \field{isbn}{978-1-84376-197-6}
+      \field{langid}{english}
+      \field{month}{01}
+      \field{pagetotal}{176}
+      \field{title}{Innovation, Evolution and Complexity Theory}
+      \field{year}{2006}
+      \keyw{Business & Economics / Economics / Theory}
+    \endentry
+    \entry{Silverberg2007}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=df4ae5e1cd34f76f1f3d5389b6d71c40}{Silverberg}{S\bibinitperiod}{Gerald}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0c93a48b98d80ac88ab8fb4e70e43e1a}{Verspagen}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=df4ae5e1cd34f76f1f3d5389b6d71c40}{Silverberg}{S\bibinitperiod}{Gerald}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0c93a48b98d80ac88ab8fb4e70e43e1a}{Verspagen}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b0bd52201383da0460f7a4d72f986f6d}
+      \strng{fullhash}{b0bd52201383da0460f7a4d72f986f6d}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{The size distribution of innovations revisited}
+      \field{abstract}{This paper focuses on the analysis of size distributions of innovations, which are known to be highly skewed. We use patent citations as one indicator of innovation significance, constructing two large datasets from the European and US Patent Offices at a high level of aggregation, and the Trajtenberg {[}1990, A penny for your quotes: patent citations and the value of innovations. Rand Journal of Economics 21(1), 172–187] dataset on CT scanners at a very low one. We also study self-assessed reports of patented innovation values using two very recent patent valuation datasets from the Netherlands and the UK, as well as a small dataset of patent licence revenues of Harvard University. Statistical methods are applied to analyse the properties of the empirical size distributions, where we put special emphasis on testing for the existence of ‘heavy tails’, i.e., whether or not the probability of very large innovations declines more slowly than exponentially. While overall the distributions appear to resemble a lognormal, we argue that the tails are indeed fat. We invoke some recent results from extreme value statistics and apply the Hill {[}1975. A simple general approach to inference about the tails of a distribution. The Annals of Statistics 3, 1163–1174] estimator with data-driven cut-offs to determine the tail index for the right tails of all datasets except the NL and UK patent valuations. On these latter datasets we use a maximum likelihood estimator for grouped data to estimate the tail index for varying definitions of the right tail. We find significantly and consistently lower tail estimates for the returns data than the citation data (around 0.6–1 vs. 3–5). The EPO and US patent citation tail indices are roughly constant over time, but the latter estimates are significantly lower than the former. The heaviness of the tails, particularly as measured by value indicators, we argue, has significant implications for technology policy and growth theory, since the second and possibly even the first moments of these distributions may not exist.}
+      \field{issn}{0304-4076}
+      \field{journaltitle}{Journal of Econometrics}
+      \field{month}{08}
+      \field{number}{2}
+      \field{series}{The Econometrics of Intellectual Property}
+      \field{shorttitle}{The size distribution of innovations revisited}
+      \field{title}{The size distribution of innovations revisited: An application of extreme value statistics to citation and value measures of patent significance}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{139}
+      \field{year}{2007}
+      \field{pages}{318\bibrangedash 339}
+      \verb{doi}
+      \verb 10.1016/j.jeconom.2006.10.017
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/FA4DNFKI/Silverberg and Verspagen - 2007 - The size distribution of innovations revisited An.pdf:application/pdf;ScienceDirect Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/7WWDSA4H/S030440760600217X.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S030440760600217X
+      \endverb
+      \keyw{Extreme-value statistics,Heavy tails,Patent citations,Returns to invention,Skewed distributions}
+    \endentry
+    \entry{Arthur2009}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=a2a67fb5b9fb15eb822e6f01175efffa}{Arthur}{A\bibinitperiod}{W.\bibnamedelimi Brian}{W\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a2a67fb5b9fb15eb822e6f01175efffa}{Arthur}{A\bibinitperiod}{W.\bibnamedelimi Brian}{W\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Simon}%
+        {Schuster}%
+      }
+      \strng{namehash}{a2a67fb5b9fb15eb822e6f01175efffa}
+      \strng{fullhash}{a2a67fb5b9fb15eb822e6f01175efffa}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{The Nature of Technology: What It Is and How It Evolves}
+      \field{abstract}{“More than anything else technology creates our world. It creates our wealth, our economy, our very way of being,” says W. Brian Arthur. Yet despite technology’s irrefutable importance in our daily lives, until now its major questions have gone unanswered. Where do new technologies come from? What constitutes innovation, and how is it achieved? Does technology, like biological life, evolve? In this groundbreaking work, pioneering technology thinker and economist W. Brian Arthur answers these questions and more, setting forth a boldly original way of thinking about technology. The Nature of Technology is an elegant and powerful theory of technology’s origins and evolution. Achieving for the development of technology what Thomas Kuhn’s The Structure of Scientific Revolutions did for scientific progress, Arthur explains how transformative new technologies arise and how innovation really works. Drawing on a wealth of examples, from historical inventions to the high-tech wonders of today, Arthur takes us on a mind-opening journey that will change the way we think about technology and how it structures our lives. The Nature of Technology is a classic for our times.}
+      \field{isbn}{1-4391-6578-5}
+      \field{pagetotal}{256}
+      \field{title}{The Nature of Technology: What It Is and How It Evolves}
+      \field{year}{2009}
+      \verb{file}
+      \verb Arthur_2009.epub:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/NBVJ8GGX/Arthur - 2009 - The Nature of Technology What It Is and How It Ev.epub:application/epub+zip;Arthur_2009.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/X2KQ9N3M/The Nature of Technology_ What It Is and H - W. Brian Arthur.pdf:application/pdf;Arthur_2009.txt:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/STJ59U6Q/Arthur_2009.txt:text/plain
+      \endverb
+      \keyw{Jeff_Read}
+    \endentry
+    \entry{Mane2004}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=5490e30a0fb0a665d1c76b34b3d14f33}{Mane}{M\bibinitperiod}{Ketan\bibnamedelima K.}{K\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=3c89b0ebe9eb23ab5f4a9cd7da804646}{Börner}{B\bibinitperiod}{Katy}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=5490e30a0fb0a665d1c76b34b3d14f33}{Mane}{M\bibinitperiod}{Ketan\bibnamedelima K.}{K\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=3c89b0ebe9eb23ab5f4a9cd7da804646}{Börner}{B\bibinitperiod}{Katy}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e272cb50051c6a51d36f8a4b0494e90e}
+      \strng{fullhash}{e272cb50051c6a51d36f8a4b0494e90e}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Mapping topics and topic bursts in {PNAS}}
+      \field{abstract}{Scientific research is highly dynamic. New areas of science continually evolve; others gain or lose importance, merge, or split. Due to the steady increase in the number of scientific publications, it is hard to keep an overview of the structure and dynamic development of one's own field of science, much less all scientific domains. However, knowledge of “hot” topics, emergent research frontiers, or change of focus in certain areas is a critical component of resource allocation decisions in research laboratories, governmental institutions, and corporations. This paper demonstrates the utilization of Kleinberg's burst detection algorithm, co-word occurrence analysis, and graph layout techniques to generate maps that support the identification of major research topics and trends. The approach was applied to analyze and map the complete set of papers published in PNAS in the years 1982-2001. Six domain experts examined and commented on the resulting maps in an attempt to reconstruct the evolution of major research areas covered by PNAS.}
+      \field{day}{06}
+      \field{eprinttype}{pmid}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{issue}{suppl 1}
+      \field{journaltitle}{{PNAS}}
+      \field{langid}{english}
+      \field{month}{04}
+      \field{title}{Mapping topics and topic bursts in {PNAS}}
+      \field{urlday}{31}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{101}
+      \field{year}{2004}
+      \field{pages}{5287\bibrangedash 5290}
+      \verb{doi}
+      \verb 10.1073/pnas.0307626100
+      \endverb
+      \verb{eprint}
+      \verb 14978278
+      \endverb
+      \verb{file}
+      \verb Mane_Börner_2004.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/9HU5PGR2/Mane_Börner_2004.pdf:application/pdf;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/33NU6K7M/5287.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/101/suppl_1/5287
+      \endverb
+    \endentry
+    \entry{Jaffe1986}{report}{}
+      \name{labelname}{1}{}{%
+        {{hash=7217fd5821554ff8d96a38afa364e3cf}{Jaffe}{J\bibinitperiod}{Adam\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7217fd5821554ff8d96a38afa364e3cf}{Jaffe}{J\bibinitperiod}{Adam\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{7217fd5821554ff8d96a38afa364e3cf}
+      \strng{fullhash}{7217fd5821554ff8d96a38afa364e3cf}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Technological Opportunity and Spillovers of R\&D}
+      \field{abstract}{This paper presents evidence that firms' patents, profits and market value are systematically related to the"technological position" of firms' research programs. Further, firms are seen to "move" in technology space in response to the pattern of contemporaneous profits at different positions. These movements tend to erode excess returns."Spillovers" of R\&D are modelled by examining whether the R\&D of neighboring firms in technology space has an observable impact on the firm's R\&D success. Firms whose neighbors do much R\&D produce more patents per dollar of their own R\&D,with a positive interaction that gives high R\&D firms the largest benefit from spillovers. In terms of profit and market value, however, their are both positive and negative effects of nearby firms' R\&D. The net effect is positive for high R\&D firms, but firms with R\&D about one standard deviation below the mean are made worse off overall by the R\&D of others.}
+      \field{number}{1815}
+      \field{shorttitle}{Technological Opportunity and Spillovers of R\&D}
+      \field{title}{Technological Opportunity and Spillovers of R\&D: Evidence from Firms' Patents, Profits and Market Value}
+      \field{type}{Working Paper}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{year}{1986}
+      \verb{file}
+      \verb NBER Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/9E8GEEKX/Jaffe - 1986 - Technological Opportunity and Spillovers of R&D E.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w1815
+      \endverb
+    \endentry
+    \entry{Hall2001}{report}{}
+      \name{labelname}{3}{}{%
+        {{hash=6f6b0322c59990eafffb502fa37cd58e}{Hall}{H\bibinitperiod}{Bronwyn\bibnamedelima H.}{B\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=7217fd5821554ff8d96a38afa364e3cf}{Jaffe}{J\bibinitperiod}{Adam\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=89a5f929407017c13e56780461b8a441}{Trajtenberg}{T\bibinitperiod}{Manuel}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=6f6b0322c59990eafffb502fa37cd58e}{Hall}{H\bibinitperiod}{Bronwyn\bibnamedelima H.}{B\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=7217fd5821554ff8d96a38afa364e3cf}{Jaffe}{J\bibinitperiod}{Adam\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=89a5f929407017c13e56780461b8a441}{Trajtenberg}{T\bibinitperiod}{Manuel}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{30105d99421e978d0ebaad93f4cef29b}
+      \strng{fullhash}{30105d99421e978d0ebaad93f4cef29b}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{The {NBER} Patent Citation Data File}
+      \field{abstract}{This paper describes the database on U.S. patents that we have developed over the past decade, with the goal of making it widely accessible for research. We present main trends in U. S. patenting over the last 30 years, including a variety of original measures constructed with citation data, such as backward and forward citation lags, indices of 'originality' and 'generality', self-citations, etc. Many of these measures exhibit interesting differences across the six main technological categories that we have developed (comprising Computers and Communications, Drugs and Medical, Electrical and Electronics, Chemical, Mechanical and Others), differences that call for further research. To stimulate such research, the entire database about 3 million patents and 16 million citations is now available on the NBER website. We discuss key issues that arise in the use of patent citations data, and suggest ways of addressing them. In particular, significant changes over time in the rate of patenting and in the number of citations made, as well as the inevitable truncation of the data, make it very hard to use the raw number of citations received by different patents directly in a meaningful way. To remedy this problem we suggest two alternative approaches: the fixed-effects approach involves scaling citations by the average citation count for a group of patents to which the patent of interest belongs; the quasi-structural approach attempts to distinguish the multiple effects on citation rates via econometric estimation.}
+      \field{month}{10}
+      \field{number}{8498}
+      \field{shorttitle}{The {NBER} Patent Citation Data File}
+      \field{title}{The {NBER} Patent Citation Data File: Lessons, Insights and Methodological Tools}
+      \field{type}{Working Paper}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{year}{2001}
+      \verb{file}
+      \verb Hall_Jaffe_Trajtenberg_2001.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/H8NIVBD2/Hall_Jaffe_Trajtenberg_2001.pdf:application/pdf;NBER Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/SKG4FZXU/Hall et al. - 2001 - The NBER Patent Citation Data File Lessons, Insig.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w8498
+      \endverb
+      \keyw{Jeff_Read}
+    \endentry
+    \entry{Eck2009}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=26227486ccd59e010fc42f382e9e8ec4}{{van\bibnamedelimb Eck}}{v\bibinitperiod}{Nees\bibnamedelima Jan}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=783af1eb97144feb275a9c50368af326}{Waltman}{W\bibinitperiod}{Ludo}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=26227486ccd59e010fc42f382e9e8ec4}{{van\bibnamedelimb Eck}}{v\bibinitperiod}{Nees\bibnamedelima Jan}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=783af1eb97144feb275a9c50368af326}{Waltman}{W\bibinitperiod}{Ludo}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7e72e31dfc7eee6902b854984cdfee6f}
+      \strng{fullhash}{7e72e31dfc7eee6902b854984cdfee6f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{How to normalize cooccurrence data?}
+      \field{abstract}{In scientometric research, the use of cooccurrence data is very common. In many cases, a similarity measure is employed to normalize the data. However, there is no consensus among researchers on which similarity measure is most appropriate for normalization purposes. In this article, we theoretically analyze the properties of similarity measures for cooccurrence data, focusing in particular on four well-known measures: the association strength, the cosine, the inclusion index, and the Jaccard index. We also study the behavior of these measures empirically. Our analysis reveals that there exist two fundamentally different types of similarity measures, namely, set-theoretic measures and probabilistic measures. The association strength is a probabilistic measure, while the cosine, the inclusion index, and the Jaccard index are set-theoretic measures. Both our theoretical and our empirical results indicate that cooccurrence data can best be normalized using a probabilistic measure. This provides strong support for the use of the association strength in scientometric research.}
+      \field{day}{01}
+      \field{issn}{1532-2890}
+      \field{journaltitle}{J. Am. Soc. Inf. Sci.}
+      \field{langid}{english}
+      \field{month}{08}
+      \field{number}{8}
+      \field{shorttitle}{How to normalize cooccurrence data?}
+      \field{title}{How to normalize cooccurrence data? An analysis of some well-known similarity measures}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{volume}{60}
+      \field{year}{2009}
+      \field{pages}{1635\bibrangedash 1651}
+      \verb{doi}
+      \verb 10.1002/asi.21075
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/7P4VG6K2/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/asi.21075/abstract
+      \endverb
+    \endentry
+    \entry{Gobbi2014}{article}{}
+      \name{labelname}{10}{}{%
+        {{hash=8e620f5a58b7fd3986e0043b65054389}{Gobbi}{G\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c350cfa864ebb4ef1bb4f5d98d3d81b3}{Iorio}{I\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=42e97260ae65a48c015a2b45fb6d7766}{Dawson}{D\bibinitperiod}{Kevin\bibnamedelima J.}{K\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=1072f3f70073e02459b067dcd9951cd8}{Wedge}{W\bibinitperiod}{David\bibnamedelima C.}{D\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=b23e8bb58fef706a8f0b3a01f6a057dd}{Tamborero}{T\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=989d12f01b45bc005c2347b5b51c935c}{Alexandrov}{A\bibinitperiod}{Ludmil\bibnamedelima B.}{L\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=3f2465419ceb543543fd65edcff2771d}{Lopez-Bigas}{L\bibinithyphendelim B\bibinitperiod}{Nuria}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a48c81999dfca78bfdbc2b0f25771}{Garnett}{G\bibinitperiod}{Mathew\bibnamedelima J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=e758b61322d8aaddcad00acf28472ea6}{Jurman}{J\bibinitperiod}{Giuseppe}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=db9c0fd92e5f4a78c7a2788cc1bae9c3}{Saez-Rodriguez}{S\bibinithyphendelim R\bibinitperiod}{Julio}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{hash=8e620f5a58b7fd3986e0043b65054389}{Gobbi}{G\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c350cfa864ebb4ef1bb4f5d98d3d81b3}{Iorio}{I\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=42e97260ae65a48c015a2b45fb6d7766}{Dawson}{D\bibinitperiod}{Kevin\bibnamedelima J.}{K\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=1072f3f70073e02459b067dcd9951cd8}{Wedge}{W\bibinitperiod}{David\bibnamedelima C.}{D\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=b23e8bb58fef706a8f0b3a01f6a057dd}{Tamborero}{T\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=989d12f01b45bc005c2347b5b51c935c}{Alexandrov}{A\bibinitperiod}{Ludmil\bibnamedelima B.}{L\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=3f2465419ceb543543fd65edcff2771d}{Lopez-Bigas}{L\bibinithyphendelim B\bibinitperiod}{Nuria}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a48c81999dfca78bfdbc2b0f25771}{Garnett}{G\bibinitperiod}{Mathew\bibnamedelima J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=e758b61322d8aaddcad00acf28472ea6}{Jurman}{J\bibinitperiod}{Giuseppe}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=db9c0fd92e5f4a78c7a2788cc1bae9c3}{Saez-Rodriguez}{S\bibinithyphendelim R\bibinitperiod}{Julio}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f0916c0d6485e65ed147dff429227c25}
+      \strng{fullhash}{bb3ffd9b548b331acffc1a204141f300}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Fast randomization of large genomic datasets while preserving alteration counts}
+      \field{abstract}{Motivation: Studying combinatorial patterns in cancer genomic datasets has recently emerged as a tool for identifying novel cancer driver networks. Approaches have been devised to quantify, for example, the tendency of a set of genes to be mutated in a ‘mutually exclusive’ manner. The significance of the proposed metrics is usually evaluated by computing P-values under appropriate null models. To this end, a Monte Carlo method (the switching-algorithm) is used to sample simulated datasets under a null model that preserves patient- and gene-wise mutation rates. In this method, a genomic dataset is represented as a bipartite network, to which Markov chain updates (switching-steps) are applied. These steps modify the network topology, and a minimal number of them must be executed to draw simulated datasets independently under the null model. This number has previously been deducted empirically to be a linear function of the total number of variants, making this process computationally expensive. Results: We present a novel approximate lower bound for the number of switching-steps, derived analytically. Additionally, we have developed the R package BiRewire, including new efficient implementations of the switching-algorithm. We illustrate the performances of BiRewire by applying it to large real cancer genomics datasets. We report vast reductions in time requirement, with respect to existing implementations/bounds and equivalent P-value computations. Thus, we propose BiRewire to study statistical properties in genomic datasets, and other data that can R;ampD be modeled as bipartite networks. Availability and implementation: BiRewire is available on BioConductor at http://www.bioconductor.org/packages/2.13/bioc/html/BiRewire.html Contact: iorio@ebi.ac.uk Supplementary information: Supplementary data are available at Bioinformatics online.}
+      \field{day}{01}
+      \field{eprinttype}{pmid}
+      \field{issn}{1367-4803, 1460-2059}
+      \field{journaltitle}{Bioinformatics}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{number}{17}
+      \field{title}{Fast randomization of large genomic datasets while preserving alteration counts}
+      \field{urlday}{10}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{30}
+      \field{year}{2014}
+      \field{pages}{i617\bibrangedash i623}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btu474
+      \endverb
+      \verb{eprint}
+      \verb 25161255
+      \endverb
+      \verb{file}
+      \verb Gobbi_et_al_2014.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/95T67NHN/Gobbi_et_al_2014.pdf:application/pdf;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/V92U3SRU/i617.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://bioinformatics.oxfordjournals.org/content/30/17/i617
+      \endverb
+    \endentry
+    \entry{Neffke2008}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=91fab329e70147338d81cfff93e8c653}{Neffke}{N\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=b7c108bdd7e14326c37a283ae0b3be8f}{Svensson\bibnamedelima Henning}{S\bibinitperiod\bibinitdelim H\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=91fab329e70147338d81cfff93e8c653}{Neffke}{N\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=b7c108bdd7e14326c37a283ae0b3be8f}{Svensson\bibnamedelima Henning}{S\bibinitperiod\bibinitdelim H\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{22391c654d9e364ef922b3e6e3ac32ee}
+      \strng{fullhash}{22391c654d9e364ef922b3e6e3ac32ee}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Revealed relatedness}
+      \field{journaltitle}{Pap. Evol. Econ. Geogr.}
+      \field{shorttitle}{Revealed relatedness}
+      \field{title}{Revealed relatedness: Mapping industry space}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{8}
+      \field{year}{2008}
+      \field{pages}{19}
+      \verb{file}
+      \verb Neffke & Henning, 2008.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/VWUVCZSA/Neffke & Henning, 2008.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www2.druid.dk/conferences/viewpaper.php?id=3691&cf=29
+      \endverb
+    \endentry
+    \entry{Bottazzi2010}{report}{}
+      \name{labelname}{2}{}{%
+        {{hash=873013cbe83259d603dd4f0b1de2a088}{Bottazzi}{B\bibinitperiod}{Giulio}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=9f5a333ea9e808d16acbaf94454b43f9}{Pirino}{P\bibinitperiod}{Davide}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=873013cbe83259d603dd4f0b1de2a088}{Bottazzi}{B\bibinitperiod}{Giulio}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=9f5a333ea9e808d16acbaf94454b43f9}{Pirino}{P\bibinitperiod}{Davide}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d86aae60df7a76e1dd8ad1576ba34c32}
+      \strng{fullhash}{d86aae60df7a76e1dd8ad1576ba34c32}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Measuring industry relatedness and corporate coherence}
+      \field{number}{2010/10}
+      \field{series}{{LEM} Working Paper Series}
+      \field{title}{Measuring industry relatedness and corporate coherence}
+      \field{type}{Working Paper}
+      \field{urlday}{22}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{year}{2010}
+      \verb{file}
+      \verb Bottazzi et al. - 2011 - Measuring Industry Relatedness and Corporate.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/Q5JT4NUZ/Bottazzi et al. - 2011 - Measuring Industry Relatedness and Corporate.pdf:application/pdf;Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/Q8N68B3A/Bottazzi and Pirino - 2010 - Measuring industry relatedness and corporate coher.pdf:application/pdf;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/48BNS4CQ/89309.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.econstor.eu/handle/10419/89309
+      \endverb
+      \keyw{corporate coherence,Jeff_To_Read,null model analysis,patent data,Relatedness,Working Paper}
+    \endentry
+    \entry{Teece1994}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=c27405ab05f6487f0916de6eb5da9097}{Teece}{T\bibinitperiod}{David\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=bf096fd5798dff39b28f32dcf7546324}{Rumelt}{R\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=2573c3b260424b37853cdc05b7d977b6}{Dosi}{D\bibinitperiod}{Giovanni}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0cf06de62ef53df5e48e5cfef98dab7c}{Winter}{W\bibinitperiod}{Sidney}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=c27405ab05f6487f0916de6eb5da9097}{Teece}{T\bibinitperiod}{David\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=bf096fd5798dff39b28f32dcf7546324}{Rumelt}{R\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=2573c3b260424b37853cdc05b7d977b6}{Dosi}{D\bibinitperiod}{Giovanni}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0cf06de62ef53df5e48e5cfef98dab7c}{Winter}{W\bibinitperiod}{Sidney}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ac7870fe70742ef034f08461e345e342}
+      \strng{fullhash}{7f0bc588adfdf9d1023b49d400bb693a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Understanding corporate coherence}
+      \field{abstract}{Multiproduct firms are perceived to be coherent in their scope, yet there is no strong theoretical foundations to explain coherence in modern industrial organization theory. This paper shows that as U.S. manufacturing firms grow more diverse, they maintain a constant level of coherence between neighboring activities. This finding runs counter to the idea that firms with many activities are generally more ‘incoherent’. A framework is then presented which appeals to the nature of enterprise learning, path dependencies, and the nature of the selection environment to explain the ubiquity of coherent diversifiers.}
+      \field{issn}{0167-2681}
+      \field{journaltitle}{Journal of Economic Behavior \& Organization}
+      \field{month}{01}
+      \field{number}{1}
+      \field{shorttitle}{Understanding corporate coherence}
+      \field{title}{Understanding corporate coherence: Theory and evidence}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{23}
+      \field{year}{1994}
+      \field{pages}{1\bibrangedash 30}
+      \verb{doi}
+      \verb 10.1016/0167-2681(94)90094-9
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/93XGCHZ5/0167268194900949.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0167268194900949
+      \endverb
+    \endentry
+    \entry{Li2014}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=bf96193a6de122f848672b84c7646836}{Li}{L\bibinitperiod}{Guan-Cheng}{G\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=4ee44b43c880639b84416fd246e39015}{Lai}{L\bibinitperiod}{Ronald}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9bd28d66f4e1f5aab5f950fe40471355}{D’Amour}{D\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b8efcbd8d7e0b317a97f0e5df6205af8}{Doolin}{D\bibinitperiod}{David\bibnamedelima M.}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=6c2abb319fd8ffeee0a4bb1fdc58e5f7}{Sun}{S\bibinitperiod}{Ye}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=c1d8b6cb9b998401d9475187e5778364}{Torvik}{T\bibinitperiod}{Vetle\bibnamedelima I.}{V\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=4957650709cd796b55fab4df94925c7d}{Yu}{Y\bibinitperiod}{Amy\bibnamedelima Z.}{A\bibinitperiod\bibinitdelim Z\bibinitperiod}{}{}{}{}}%
+        {{hash=4889af2694aa4a793fe554e5a70eebe8}{Fleming}{F\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=bf96193a6de122f848672b84c7646836}{Li}{L\bibinitperiod}{Guan-Cheng}{G\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=4ee44b43c880639b84416fd246e39015}{Lai}{L\bibinitperiod}{Ronald}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9bd28d66f4e1f5aab5f950fe40471355}{D’Amour}{D\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b8efcbd8d7e0b317a97f0e5df6205af8}{Doolin}{D\bibinitperiod}{David\bibnamedelima M.}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=6c2abb319fd8ffeee0a4bb1fdc58e5f7}{Sun}{S\bibinitperiod}{Ye}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=c1d8b6cb9b998401d9475187e5778364}{Torvik}{T\bibinitperiod}{Vetle\bibnamedelima I.}{V\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=4957650709cd796b55fab4df94925c7d}{Yu}{Y\bibinitperiod}{Amy\bibnamedelima Z.}{A\bibinitperiod\bibinitdelim Z\bibinitperiod}{}{}{}{}}%
+        {{hash=4889af2694aa4a793fe554e5a70eebe8}{Fleming}{F\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{804f28255da3f65ca1f57983d2eddef0}
+      \strng{fullhash}{7c1728550dba98e6a702c66ba832b28f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Disambiguation and co-authorship networks of the U.S. patent inventor database (1975–2010)}
+      \field{journaltitle}{Res. Policy}
+      \field{month}{07}
+      \field{number}{6}
+      \field{title}{Disambiguation and co-authorship networks of the U.S. patent inventor database (1975–2010)}
+      \field{volume}{43}
+      \field{year}{2014}
+      \field{pages}{941\bibrangedash 955}
+      \verb{doi}
+      \verb 10.1016/j.respol.2014.01.012
+      \endverb
+      \verb{file}
+      \verb Li_et_al_2014.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/DFB8MKBK/Li_et_al_2014.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0048733314000225
+      \endverb
+      \keyw{Bowen_To_Read,Jeff_Read}
+    \endentry
+    \entry{Newman2004}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=e10496a046558ed6c27e3a9373727f7f}{Newman}{N\bibinitperiod}{M.\bibnamedelimi E.\bibnamedelimi J.}{M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=3d0a234cad5f1174e74175aff18bee28}{Girvan}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e10496a046558ed6c27e3a9373727f7f}{Newman}{N\bibinitperiod}{M.\bibnamedelimi E.\bibnamedelimi J.}{M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=3d0a234cad5f1174e74175aff18bee28}{Girvan}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{774c384e8765061027c9e2622addf535}
+      \strng{fullhash}{774c384e8765061027c9e2622addf535}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Finding and evaluating community structure in networks}
+      \field{abstract}{We propose and study a set of algorithms for discovering community structure in networks—natural divisions of network nodes into densely connected subgroups. Our algorithms all share two definitive features: first, they involve iterative removal of edges from the network to split it into communities, the edges removed being identified using any one of a number of possible “betweenness” measures, and second, these measures are, crucially, recalculated after each removal. We also propose a measure for the strength of the community structure found by our algorithms, which gives us an objective metric for choosing the number of communities into which a network should be divided. We demonstrate that our algorithms are highly effective at discovering community structure in both computer-generated and real-world network data, and show how they can be used to shed light on the sometimes dauntingly complex structure of networked systems.}
+      \field{day}{26}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{Finding and evaluating community structure in networks}
+      \field{urlday}{27}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{volume}{69}
+      \field{year}{2004}
+      \field{pages}{026113}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.69.026113
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/8ZWPPWGI/PhysRevE.69.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevE.69.026113
+      \endverb
+    \endentry
+    \entry{Blondel2008}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=7381589d497aafc03604ba1ecfa91c1e}{Blondel}{B\bibinitperiod}{Vincent\bibnamedelima D.}{V\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b6e1859f5b4504b6f852c6112880f18}{Guillaume}{G\bibinitperiod}{Jean-Loup}{J\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=a0bc3d83c54bda6a078936b2d87d6c9f}{Lambiotte}{L\bibinitperiod}{Renaud}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=78c7291a964edd655c49fdec8099ab3e}{Lefebvre}{L\bibinitperiod}{Etienne}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=7381589d497aafc03604ba1ecfa91c1e}{Blondel}{B\bibinitperiod}{Vincent\bibnamedelima D.}{V\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b6e1859f5b4504b6f852c6112880f18}{Guillaume}{G\bibinitperiod}{Jean-Loup}{J\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=a0bc3d83c54bda6a078936b2d87d6c9f}{Lambiotte}{L\bibinitperiod}{Renaud}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=78c7291a964edd655c49fdec8099ab3e}{Lefebvre}{L\bibinitperiod}{Etienne}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{91164597bbf6397f338928baf7baac8b}
+      \strng{fullhash}{b95f0069c4cd127af6c33b546e6f0d7a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Fast unfolding of communities in large networks}
+      \field{abstract}{We propose a simple method to extract the community structure of large networks. Our method is a heuristic method that is based on modularity optimization. It is shown to outperform all other known community detection methods in terms of computation time. Moreover, the quality of the communities detected is very good, as measured by the so-called modularity. This is shown first by identifying language communities in a Belgian mobile phone network of 2 million customers and by analysing a web graph of 118 million nodes and more than one billion links. The accuracy of our algorithm is also verified on ad hoc modular networks.}
+      \field{day}{01}
+      \field{issn}{1742-5468}
+      \field{journaltitle}{J. Stat. Mech.}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Fast unfolding of communities in large networks}
+      \field{urlday}{27}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{pages}{P10008}
+      \verb{doi}
+      \verb 10.1088/1742-5468/2008/10/P10008
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/745G2R74/P10008.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://iopscience.iop.org/1742-5468/2008/10/P10008
+      \endverb
+      \keyw{networks,new applications of statistical mechanics,random graphs}
+    \endentry
+    \entry{Traag2015}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=8d4e0e64a43048f54e03b1818774555e}{Traag}{T\bibinitperiod}{V.\bibnamedelimi A.}{V\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=8d4e0e64a43048f54e03b1818774555e}{Traag}{T\bibinitperiod}{V.\bibnamedelimi A.}{V\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8d4e0e64a43048f54e03b1818774555e}
+      \strng{fullhash}{8d4e0e64a43048f54e03b1818774555e}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Faster unfolding of communities}
+      \field{abstract}{Many complex networks exhibit a modular structure of densely connected groups of nodes. Usually, such a modular structure is uncovered by the optimisation of some quality function. Although flawed, Modularity remains one of the most popular quality functions. The Louvain algorithm was originally developed for optimising Modularity, but has been applied to a variety of methods. As such, speeding up the Louvain algorithm, enables the analysis of larger graphs in a shorter time for various methods. We here suggest to consider moving nodes to the community of a random neighbour, instead of the best neighbouring community. Although incredibly simple, it reduces the theoretical runtime complexity from \$O(m)\$ to \$O(n \ensuremath{\backslash}log \ensuremath{<}k\ensuremath{>})\$ in networks with a clear community structure. In benchmark networks, resembling real networks more closely, it speeds up the algorithm roughly 2-3 times. This is due to two factors: (1) a random neighbour is likely to be in a "good" community; and (2) random neighbours are likely to be hubs, helping the convergence. Finally, the performance gain only slightly diminishes the quality, thus providing an excellent quality-performance ratio. However, these gains do not seem to hold up when detecting small communities in large graphs.}
+      \field{day}{04}
+      \field{eprinttype}{arxiv}
+      \field{month}{03}
+      \field{shorttitle}{Faster unfolding of communities}
+      \field{title}{Faster unfolding of communities: speeding up the Louvain algorithm}
+      \field{urlday}{27}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1503.01322
+      \endverb
+      \verb{file}
+      \verb arXiv.org Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/3GF2KUAI/1503.html:text/html;Traag_2015.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/DPCTF6MH/Traag_2015.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1503.01322
+      \endverb
+      \keyw{Computer Science - Data Structures and Algorithms,Computer Science - Social and Information Networks,Physics - Physics and Society}
+    \endentry
+    \entry{Tumminello2005}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=2107ca8baf92fba5304ac8904c5ed17a}{Tumminello}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4ca10d22aa28a0c0e784435932e7a3a7}{Aste}{A\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=49e823411c82799343385c551dc349e1}{Matteo}{M\bibinitperiod}{T.\bibnamedelimi Di}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6ea084c7cd990cdda07277c9f1b412b2}{Mantegna}{M\bibinitperiod}{R.\bibnamedelimi N.}{R\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=2107ca8baf92fba5304ac8904c5ed17a}{Tumminello}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4ca10d22aa28a0c0e784435932e7a3a7}{Aste}{A\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=49e823411c82799343385c551dc349e1}{Matteo}{M\bibinitperiod}{T.\bibnamedelimi Di}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6ea084c7cd990cdda07277c9f1b412b2}{Mantegna}{M\bibinitperiod}{R.\bibnamedelimi N.}{R\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6deef639e9d81e32a5a3938de371bd4b}
+      \strng{fullhash}{e481f5c422a74be1bdb387222119171a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{A tool for filtering information in complex systems}
+      \field{abstract}{We introduce a technique to filter out complex data sets by extracting a subgraph of representative links. Such a filtering can be tuned up to any desired level by controlling the genus of the resulting graph. We show that this technique is especially suitable for correlation-based graphs, giving filtered graphs that preserve the hierarchical organization of the minimum spanning tree but containing a larger amount of information in their internal structure. In particular in the case of planar filtered graphs (genus equal to 0), triangular loops and four-element cliques are formed. The application of this filtering procedure to 100 stocks in the U.S. equity markets shows that such loops and cliques have important and significant relationships with the market structure and properties.}
+      \field{day}{26}
+      \field{eprinttype}{pmid}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{{PNAS}}
+      \field{langid}{english}
+      \field{month}{07}
+      \field{number}{30}
+      \field{title}{A tool for filtering information in complex systems}
+      \field{urlday}{13}
+      \field{urlmonth}{08}
+      \field{urlyear}{2015}
+      \field{volume}{102}
+      \field{year}{2005}
+      \field{pages}{10421\bibrangedash 10426}
+      \verb{doi}
+      \verb 10.1073/pnas.0500298102
+      \endverb
+      \verb{eprint}
+      \verb 16027373
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/SAKNRHN2/10421.html:text/html;Tumminello et al_2005.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/8VMFVNCI/Tumminello et al_2005.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/102/30/10421
+      \endverb
+      \keyw{cluster analysis,Complex networks,correlation analysis}
+    \endentry
+    \entry{Leten2007}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=0fe07a27d2a9daf60749a62d58aeb2dd}{Leten}{L\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=8bbd1ac865d0ef7846b36f90626463d4}{Belderbos}{B\bibinitperiod}{Rene}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=2a91eedabd24d40f670df20baa35d573}{{Van\bibnamedelimb Looy}}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=0fe07a27d2a9daf60749a62d58aeb2dd}{Leten}{L\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=8bbd1ac865d0ef7846b36f90626463d4}{Belderbos}{B\bibinitperiod}{Rene}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=2a91eedabd24d40f670df20baa35d573}{{Van\bibnamedelimb Looy}}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{72c3fdb9e26129c949b83c1a5d1d194d}
+      \strng{fullhash}{72c3fdb9e26129c949b83c1a5d1d194d}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Technological Diversification, Coherence, and Performance of Firms}
+      \field{abstract}{Technological diversification at the firm level (i.e., the expansion of a firm's technology base into a wide range of technology fields) is found to be a prevailing phenomenon in all three major industrialized regions,—the United States, Europe, and Japan—prompting the term multitechnology corporation. Whereas previous studies have provided insights into the composition of technology portfolios of multitechnology firms, little is known about the relationship between technological diversification and firms' technological performance. Against a backdrop of the technology and innovation management literature, the present article investigates the relationship between technological diversification and technological performance, taking into account the moderating role of technological coherence in firms' technology portfolios. Hereby, technological coherence is defined as the degree to which technologies in a technology portfolio are technologically related. To measure the technological coherence of portfolios, a measure of technological relatedness of technology fields is constructed based on patent citation patterns found in 450,000 European Patent Office (EPO) patent grants. Two hypotheses are presented here: (1) Technological diversification has an inverted U-shaped relationship with technological performance; and (2) technological coherence moderates the relationship between technological diversification and technological performance positively. These hypotheses are tested empirically using a panel data set (1995–2003) on patent portfolios pertaining to 184 U.S., European, and Japanese firms. The firms selected are the largest research and development (R\&D) actors in five industries: pharmaceuticals and biotechnology; chemicals; engineering and general machinery; information technology (IT) hardware (i.e., computers and communication equipment); and electronics and electrical machinery. Empirical results, obtained by fixed-effects negative binomial regressions, support both hypotheses in the present article. Technological diversification has an inverted U-shaped relationship with technological performance. Technological diversification offers opportunities for cross-fertilization and technology fusion, but high levels of diversification may yield few marginal benefits as firms risk lacking sufficient levels of scale to benefit from wide-ranging technological diversification, and firms may encounter high levels of coordination and integration costs. Further, the results show that the net benefits of technological diversification are higher in technologically coherent technology portfolios. If firms build up a technologically coherent diversified portfolio, the presence of sufficient levels of scale is ensured and coordination costs are limited. At the same time, technologically coherent diversification puts firms in a better position to benefit form cross-fertilization between technologies. The present article clearly identifies the important role of technological coherence in technology diversification strategies of firms.}
+      \field{day}{01}
+      \field{issn}{1540-5885}
+      \field{journaltitle}{J. Prod. Innov. Manag.}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{6}
+      \field{title}{Technological Diversification, Coherence, and Performance of Firms}
+      \field{urlday}{26}
+      \field{urlmonth}{09}
+      \field{urlyear}{2014}
+      \field{volume}{24}
+      \field{year}{2007}
+      \field{pages}{567\bibrangedash 579}
+      \verb{doi}
+      \verb 10.1111/j.1540-5885.2007.00272.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/CP7UZGH4/Leten et al. - 2007 - Technological Diversification, Coherence, and Perf.pdf:application/pdf;Leten et al., 2007.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/SXJGHV7P/Leten et al., 2007.pdf:application/pdf;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/AWHGRVNW/full.html:text/html;Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/KW7IH5MD/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1540-5885.2007.00272.x/abstract
+      \endverb
+      \keyw{Bowen_To_Read}
+    \endentry
+    \entry{Wallace2009}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=05cb52303ef5805a760372568a3169ca}{Wallace}{W\bibinitperiod}{Matthew\bibnamedelima L.}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=8941348e9d2f747726909f6705421d66}{Gingras}{G\bibinitperiod}{Yves}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=294f7e3a669163bf482f169450cfbb5d}{Duhon}{D\bibinitperiod}{Russell}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=05cb52303ef5805a760372568a3169ca}{Wallace}{W\bibinitperiod}{Matthew\bibnamedelima L.}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=8941348e9d2f747726909f6705421d66}{Gingras}{G\bibinitperiod}{Yves}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=294f7e3a669163bf482f169450cfbb5d}{Duhon}{D\bibinitperiod}{Russell}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9a2506bf4e06447aed5bd899b53f311c}
+      \strng{fullhash}{9a2506bf4e06447aed5bd899b53f311c}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{A new approach for detecting scientific specialties from raw cocitation networks}
+      \field{abstract}{We use a technique recently developed by V. Blondel, J.-L. Guillaume, R. Lambiotte, and E. Lefebvre (2008) to detect scientific specialties from author cocitation networks. This algorithm has distinct advantages over most previous methods used to obtain cocitation “clusters” since it avoids the use of similarity measures, relies entirely on the topology of the weighted network, and can be applied to relatively large networks. Most importantly, it requires no subjective interpretation of the cocitation data or of the communities found. Using two examples, we show that the resulting specialties are the smallest coherent “groups” of researchers (within a hierarchy of cluster sizes) and can thus be identified unambiguously. Furthermore, we confirm that these communities are indeed representative of what we know about the structure of a given scientific discipline and that as specialties, they can be accurately characterized by a few keywords (from the publication titles). We argue that this robust and efficient algorithm is particularly well-suited to cocitation networks and that the results generated can be of great use to researchers studying various facets of the structure and evolution of science.}
+      \field{day}{01}
+      \field{issn}{1532-2890}
+      \field{journaltitle}{J. Am. Soc. Inf. Sci.}
+      \field{langid}{english}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{A new approach for detecting scientific specialties from raw cocitation networks}
+      \field{urlday}{09}
+      \field{urlmonth}{09}
+      \field{urlyear}{2015}
+      \field{volume}{60}
+      \field{year}{2009}
+      \field{pages}{240\bibrangedash 246}
+      \verb{doi}
+      \verb 10.1002/asi.20987
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/G6VI2TUK/full.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/asi.20987/abstract
+      \endverb
+    \endentry
+    \entry{Jaffe1989}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=7217fd5821554ff8d96a38afa364e3cf}{Jaffe}{J\bibinitperiod}{Adam\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7217fd5821554ff8d96a38afa364e3cf}{Jaffe}{J\bibinitperiod}{Adam\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7217fd5821554ff8d96a38afa364e3cf}
+      \strng{fullhash}{7217fd5821554ff8d96a38afa364e3cf}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Characterizing the "technological position" of firms, with application to quantifying technological opportunity and research spillovers}
+      \field{issn}{0048-7333}
+      \field{journaltitle}{Research Policy}
+      \field{month}{04}
+      \field{number}{2}
+      \field{title}{Characterizing the "technological position" of firms, with application to quantifying technological opportunity and research spillovers}
+      \field{urlday}{18}
+      \field{urlmonth}{05}
+      \field{urlyear}{2015}
+      \field{volume}{18}
+      \field{year}{1989}
+      \field{pages}{87\bibrangedash 97}
+      \verb{doi}
+      \verb 10.1016/0048-7333(89)90007-3
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/ZNUKJMBF/0048733389900073.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0048733389900073
+      \endverb
+    \endentry
+    \entry{Criscuolo2008}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=79a064beca001f7eadf8f74358f89763}{Criscuolo}{C\bibinitperiod}{Paola}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0c93a48b98d80ac88ab8fb4e70e43e1a}{Verspagen}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=79a064beca001f7eadf8f74358f89763}{Criscuolo}{C\bibinitperiod}{Paola}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0c93a48b98d80ac88ab8fb4e70e43e1a}{Verspagen}{V\bibinitperiod}{Bart}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ce10ce92d484fa36eb0f7e0c2b01ae54}
+      \strng{fullhash}{ce10ce92d484fa36eb0f7e0c2b01ae54}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Does it matter where patent citations come from?}
+      \field{abstract}{This paper addresses the question of whether patent citations are useful indicators of technology flows. We exploit the distinction between citations added by inventors and patent examiners. We use information from the search reports of European Patent Office patent examiners to construct our dataset of patenting activity in Europe and the US, and apply various econometric models to investigate what determines the probability that a citation is added by the inventor rather than the examiner. Contrary to previous work which uses US Patent and Trademark Office data, we find that geographical distance is a factor that strongly diminishes the probability of knowledge flows. We find other significant effects of such factors as cognitive distance, time and strategic factors on citing behaviour.}
+      \field{issn}{0048-7333}
+      \field{journaltitle}{Research Policy}
+      \field{month}{12}
+      \field{number}{10}
+      \field{series}{Special Section Knowledge Dynamics out of Balance: Knowledge Biased, Skewed and Unmatched}
+      \field{shorttitle}{Does it matter where patent citations come from?}
+      \field{title}{Does it matter where patent citations come from? Inventor vs. examiner citations in European patents}
+      \field{urlday}{15}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{37}
+      \field{year}{2008}
+      \field{pages}{1892\bibrangedash 1908}
+      \verb{doi}
+      \verb 10.1016/j.respol.2008.07.011
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/AVXXM66Z/Criscuolo and Verspagen - 2008 - Does it matter where patent citations come from I.pdf:application/pdf;ScienceDirect Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/QSJSJIBP/S0048733308001583.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0048733308001583
+      \endverb
+      \keyw{Local knowledge spillovers,Patent citations}
+    \endentry
+    \entry{Alcacer2006}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=3a44d79ad0c3d0640d19ccc8d5fb9cc2}{Alcácer}{A\bibinitperiod}{Juan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a7f9ed99dddc9a052a80c4c1c9d6386b}{Gittelman}{G\bibinitperiod}{Michelle}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=3a44d79ad0c3d0640d19ccc8d5fb9cc2}{Alcácer}{A\bibinitperiod}{Juan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a7f9ed99dddc9a052a80c4c1c9d6386b}{Gittelman}{G\bibinitperiod}{Michelle}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f1175f561a7926e3daa624b929d6d7ed}
+      \strng{fullhash}{f1175f561a7926e3daa624b929d6d7ed}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Patent Citations as a Measure of Knowledge Flows}
+      \field{abstract}{Analysis of patent citations is a core methodology in the study of knowledge diffusion. However, citations made by patent examiners have not been separately reported, adding unknown noise to the data. We leverage a recent change in the reporting of patent data showing citations added by examiners. The magnitude is high: two-thirds of citations on the average patent are inserted by examiners. Furthermore, 40\% of all patents have all citations added by examiners. We analyze the distribution of examiner and inventor citations with respect to self-citation, distance, technology overlap, and vintage. Results indicate that inferences about inventor knowledge using pooled citations may suffer from bias or overinflated significance levels.}
+      \field{day}{01}
+      \field{issn}{0034-6535}
+      \field{journaltitle}{Review of Economics and Statistics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{shorttitle}{Patent Citations as a Measure of Knowledge Flows}
+      \field{title}{Patent Citations as a Measure of Knowledge Flows: The Influence of Examiner Citations}
+      \field{urlday}{15}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{88}
+      \field{year}{2006}
+      \field{pages}{774\bibrangedash 779}
+      \verb{doi}
+      \verb 10.1162/rest.88.4.774
+      \endverb
+      \verb{file}
+      \verb Review of Economics and Statistics Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/FJ8FNA54/rest.88.4.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1162/rest.88.4.774
+      \endverb
+    \endentry
+    \entry{2014}{online}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Manual of Patent Examining Procedure}
+      \field{abstract}{Manual of Patent Examining Procedure}
+      \field{langid}{american}
+      \field{title}{Manual of Patent Examining Procedure}
+      \field{titleaddon}{United States Patent and Trademark Office}
+      \field{urlday}{12}
+      \field{urlmonth}{08}
+      \field{urlyear}{2015}
+      \field{year}{2014}
+      \verb{file}
+      \verb Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/W3W3VD8T/s904.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.uspto.gov/web/offices/pac/mpep/s904.html
+      \endverb
+    \endentry
+    \entry{Valverde2007}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=b8e6bd246a78e3a3ceecc6e5b09d47ac}{Valverde}{V\bibinitperiod}{Sergi}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=baad5d9810e62285be1f8fe05ef8c0e5}{Sol}{S\bibinitperiod}{Ricard\bibnamedelima V}{R\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=9b6c6ac3463f7d898011109308dfc45f}{Bedau}{B\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e540596ab636c3c79206c49960d7c8c2}{Packard}{P\bibinitperiod}{Norman}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=b8e6bd246a78e3a3ceecc6e5b09d47ac}{Valverde}{V\bibinitperiod}{Sergi}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=baad5d9810e62285be1f8fe05ef8c0e5}{Sol}{S\bibinitperiod}{Ricard\bibnamedelima V}{R\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=9b6c6ac3463f7d898011109308dfc45f}{Bedau}{B\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e540596ab636c3c79206c49960d7c8c2}{Packard}{P\bibinitperiod}{Norman}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{aae83d505f945d04097e5c9f71b68224}
+      \strng{fullhash}{51aa6a6ac7356a553ecb2a709c081755}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Topology and Evolution of Technology Innovation Networks}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{title}{Topology and Evolution of Technology Innovation Networks}
+      \field{volume}{76}
+      \field{year}{2007}
+      \verb{file}
+      \verb Valverde_et_al_2007.pdf:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/29WIBQWU/Valverde_et_al_2007.pdf:application/pdf
+      \endverb
+      \keyw{Jeff_To_Read}
+    \endentry
+    \entry{Gobbi2015}{software}{}
+      \name{labelname}{2}{}{%
+        {{hash=8e620f5a58b7fd3986e0043b65054389}{Gobbi}{G\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c350cfa864ebb4ef1bb4f5d98d3d81b3}{Iorio}{I\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8e620f5a58b7fd3986e0043b65054389}{Gobbi}{G\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c350cfa864ebb4ef1bb4f5d98d3d81b3}{Iorio}{I\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{422ad7b2a11ca29f0d9f9723ba7be58a}
+      \strng{fullhash}{422ad7b2a11ca29f0d9f9723ba7be58a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{BiRewire}}
+      \field{title}{{BiRewire}}
+      \field{version}{2.2}
+      \field{year}{2015}
+    \endentry
+    \entry{Hong2013}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=8a966d03280e2eb515545077d0d1f679}{Hong}{H\bibinitperiod}{Yili}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=8a966d03280e2eb515545077d0d1f679}{Hong}{H\bibinitperiod}{Yili}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8a966d03280e2eb515545077d0d1f679}
+      \strng{fullhash}{8a966d03280e2eb515545077d0d1f679}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{On computing the distribution function for the Poisson binomial distribution}
+      \field{abstract}{The Poisson binomial distribution is the distribution of the sum of independent and non-identically distributed random indicators. Each indicator follows a Bernoulli distribution and the individual probabilities of success vary. When all success probabilities are equal, the Poisson binomial distribution is a binomial distribution. The Poisson binomial distribution has many applications in different areas such as reliability, actuarial science, survey sampling, econometrics, etc. The computing of the cumulative distribution function (cdf) of the Poisson binomial distribution, however, is not straightforward. Approximation methods such as the Poisson approximation and normal approximations have been used in literature. Recursive formulae also have been used to compute the cdf in some areas. In this paper, we present a simple derivation for an exact formula with a closed-form expression for the cdf of the Poisson binomial distribution. The derivation uses the discrete Fourier transform of the characteristic function of the distribution. We develop an algorithm that efficiently implements the exact formula. Numerical studies were conducted to study the accuracy of the developed algorithm and approximation methods. We also studied the computational efficiency of different methods. The paper is concluded with a discussion on the use of different methods in practice and some suggestions for practitioners.}
+      \field{issn}{0167-9473}
+      \field{journaltitle}{Computational Statistics \& Data Analysis}
+      \field{month}{03}
+      \field{title}{On computing the distribution function for the Poisson binomial distribution}
+      \field{urlday}{14}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{59}
+      \field{year}{2013}
+      \field{pages}{41\bibrangedash 51}
+      \verb{doi}
+      \verb 10.1016/j.csda.2012.10.006
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/2R4PN79T/Hong - 2013 - On computing the distribution function for the Poi.pdf:application/pdf;ScienceDirect Snapshot:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/CI59QTZX/S0167947312003568.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0167947312003568
+      \endverb
+      \keyw{Characteristic function,k -out-of- n system,Longevity risk,Normal approximation,Sum of independent random indicators,Warranty returns}
+    \endentry
+    \entry{Fernandez2010}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=dbbf8064b4a517532e54b7c2b57d56a2}{Fernandez}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=d016356435e41f9f216cd5ad5414be6c}{Williams}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=dbbf8064b4a517532e54b7c2b57d56a2}{Fernandez}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=d016356435e41f9f216cd5ad5414be6c}{Williams}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6f75cec005b3953762d5ace1f4ae93fd}
+      \strng{fullhash}{6f75cec005b3953762d5ace1f4ae93fd}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Closed-Form Expression for the Poisson-Binomial Probability Density Function}
+      \field{abstract}{The Poisson-binomial probability density function (pdf) describes the numbers of successes in N independent trials, when the individual probabilities of success vary across trials. Its use is pervasive in applications, such as fault tolerance, signal detection, target tracking, object classification/identification, multi-sensor data fusion, system management, and performance characterization, among others. We present a closed-form expression for this pdf, and we discuss several of its advantages regarding computing speed and implementation and in simplifying analysis, with examples of the latter including the computation of moments and the development of new trigonometric identities for the binomial coefficient and the binomial cumulative distribution function (cdf). Finally we also pose and address the inverse Poisson-binomial problem; that is, given such pdf, how to find (within a permutation) the probabilities of success of the individual trials.}
+      \field{issn}{0018-9251}
+      \field{journaltitle}{{IEEE} Trans. Aerosp. Electron. Syst.}
+      \field{month}{04}
+      \field{number}{2}
+      \field{title}{Closed-Form Expression for the Poisson-Binomial Probability Density Function}
+      \field{volume}{46}
+      \field{year}{2010}
+      \field{pages}{803\bibrangedash 817}
+      \verb{doi}
+      \verb 10.1109/TAES.2010.5461658
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/B525QDSR/abs_all.html:text/html;IEEE Xplore Full Text PDF:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/53ZS6SGX/Fernandez and Williams - 2010 - Closed-Form Expression for the Poisson-Binomial Pr.pdf:application/pdf
+      \endverb
+      \keyw{binomial coefficient,binomial cumulative distribution function,binomial distribution,closed-form expression,Closed-form solution,computing speed,Distributed computing,Distribution functions,Fault tolerant systems,Poisson-binomial,Poisson distribution,probability,probability density function,Resource management,Signal detection,simplifying analysis,Target tracking,Testing,trigonometric identities,Workstations}
+    \endentry
+    \entry{Chen1997}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=bf0ecfe598fdcdd177205375525386f9}{Chen}{C\bibinitperiod}{Sean\bibnamedelima X.}{S\bibinitperiod\bibinitdelim X\bibinitperiod}{}{}{}{}}%
+        {{hash=58b6ab30975eca2201e264d805607d70}{Liu}{L\bibinitperiod}{Jun\bibnamedelima S.}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=bf0ecfe598fdcdd177205375525386f9}{Chen}{C\bibinitperiod}{Sean\bibnamedelima X.}{S\bibinitperiod\bibinitdelim X\bibinitperiod}{}{}{}{}}%
+        {{hash=58b6ab30975eca2201e264d805607d70}{Liu}{L\bibinitperiod}{Jun\bibnamedelima S.}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8527bcb2349152b13aefec494185297b}
+      \strng{fullhash}{8527bcb2349152b13aefec494185297b}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Statistical applications of the Poisson-binomial and conditional Bernoulli distributions}
+      \field{journaltitle}{Stat. Sin.}
+      \field{number}{4}
+      \field{title}{Statistical applications of the Poisson-binomial and conditional Bernoulli distributions}
+      \field{urlday}{21}
+      \field{urlmonth}{07}
+      \field{urlyear}{2015}
+      \field{volume}{7}
+      \field{year}{1997}
+      \field{pages}{875\bibrangedash 892}
+      \verb{file}
+      \verb [PDF] from sinica.edu.tw:/Users/jeff/Library/Application Support/Zotero/Profiles/eaysq4eo.default/zotero/storage/M2CGG3RG/Chen and Liu - 1997 - Statistical applications of the Poisson-binomial a.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www3.stat.sinica.edu.tw/statistica/password.asp?vol=7&num=4&art=4
+      \endverb
+    \endentry
+\endinput
+
