@@ -1,18 +1,18 @@
 
 # coding: utf-8
 
-# In[2]:
+# In[5]:
 
 import pandas as pd
 get_ipython().magic('pylab inline')
 
 
-# In[3]:
+# In[6]:
 
 data_directory = '../data/'
 
 
-# In[4]:
+# In[7]:
 
 import os
 def try_to_make_directory(f):
@@ -25,19 +25,19 @@ def try_to_make_directory(f):
 # Organize data for citations, co-classifications and occurrences
 # ===
 
-# In[ ]:
+# In[7]:
 
 # print("Organizing Citations")
 # %run -i Organize_Citations.py
 
 
-# In[4]:
+# In[8]:
 
 # print("Organizing Classifications")
 # %run -i Organize_Classifications.py
 
 
-# In[4]:
+# In[9]:
 
 # print("Organizing Occurrences")
 # %run -i Organize_Occurrences.py
@@ -49,9 +49,9 @@ def try_to_make_directory(f):
 # Define classes and entities to analyze
 # ---
 
-# In[1]:
+# In[10]:
 
-class_systems = ['IPC4']#, IPC', 'USPC',]
+class_systems = ['IPC', IPC4', 'USPC',]
 occurrence_entities = {'Firm': ('occurrences_organized.h5', 'entity_classes_Firm'),
                        'Inventor': ('occurrences_organized.h5', 'entity_classes_Inventor'),
                        'Country': ('occurrences_organized.h5', 'entity_classes_Country'),
@@ -63,7 +63,7 @@ entity_types = list(occurrence_entities.keys())
 # Define what years to calculate networks for
 # ---
 
-# In[5]:
+# In[8]:
 
 target_years = [2010]
 
@@ -81,7 +81,7 @@ else:
     n_years_label = '%i_years_'%n_years
 
 
-# In[8]:
+# In[9]:
 
 citation_metrics = ['Class_Cites_Class_Count',
                     'Class_Cited_by_Class_Count',
@@ -95,7 +95,7 @@ citation_metrics = ['Class_Cites_Class_Count',
 # Calculate empirical networks
 # ===
 
-# In[9]:
+# In[8]:
 
 try_to_make_directory(data_directory+'Class_Relatedness_Networks/')
 try_to_make_directory(data_directory+'Class_Relatedness_Networks/citations/')
@@ -150,10 +150,11 @@ try_to_make_directory(data_directory+'Class_Relatedness_Networks/cooccurrence/co
 # ---
 # (Currently set up to use a cluster)
 
-# In[14]:
+# In[11]:
 
 first_rand_id = 0
 n_randomizations = 1000
+overwrite = True
 
 python_location = '/home/jeffrey_alstott/anaconda3/bin/python'
 from os import path
@@ -201,10 +202,11 @@ print(entity_column)
         get_ipython().magic('run -i Calculating_Synthetic_Networks_Control_Commands')
 
 
-# Integrate randomized data
+# Integrate randomized data and calculate Z-scores
 # ---
+# Note: Any classes that have no data (i.e. no patents within that class) will create z-scores of 'nan', which will be dropped when saved to the HDF5 file. Therefore, the z-scores data will simply not includes these classes.
 
-# In[8]:
+# In[ ]:
 
 n_controls = n_randomizations
 
@@ -218,40 +220,41 @@ for class_system in class_systems:
     get_ipython().magic('run -i Calculating_Synthetic_Networks_Integrate_Runs.py')
 
 
-# Delete individual runs of randomized data
-# ---
-# Keep the IPC runs for creating figures with histograms in the manuscript. They're also the smallest ones.
-
-# In[49]:
-
-from shutil import rmtree
-
-for class_system in class_systems:
-    if class_system == 'IPC':
-        continue
-    else:
-        rmtree(data_directory+'Class_Relatedness_Networks/citations/controls/'+class_system)
-        rmtree(data_directory+'Class_Relatedness_Networks/cooccurrence/controls/'+class_system)  
-
-
-# Organize individual runs of IPC
+# Organize individual runs of IPC and store separately
 # ---
 
 # In[ ]:
 
-class_relatedness_networks_controls_organized.h5
+class_system = 'IPC'
+target_year = 2010
+
+get_ipython().magic('run -i Calculating_Synthetic_Networks_Organize_Runs.py')
+
+
+# Delete individual runs of randomizations
+# ===
+
+# In[49]:
+
+# from shutil import rmtree
+
+# for class_system in class_systems:
+#     if class_system not in ['IPC']:
+#         rmtree(data_directory+'Class_Relatedness_Networks/citations/controls/'+class_system)
+#         rmtree(data_directory+'Class_Relatedness_Networks/cooccurrence/controls/'+class_system)  
 
 
 # Make randomized controls of IPC co-occurrence networks without preserving year-by-year structure
 # ===
 
-# In[54]:
+# In[19]:
 
 class_system = 'IPC'
 preserve_years = False
 
 first_rand_id = 0
-n_randomizations = 10
+n_randomizations = 1000
+overwrite = True
 
 python_location = '/home/jeffrey_alstott/anaconda3/bin/python'
 from os import path
@@ -260,15 +263,11 @@ abs_path_data_directory = path.abspath(data_directory)+'/'
 
 try_to_make_directory('jobfiles/')
 
-
-
 basic_program = open('Calculating_CoOccurrence_Networks.py', 'r').read()
+job_type = 'cooccurrence'
 for entity in occurrence_entities.keys():
-    basic_program = open('Calculating_CoOccurrence_Networks.py', 'r').read()
-    job_type = 'cooccurrence'
-    for entity in occurrence_entities.keys():
-        occurrence_data, entity_data = occurrence_entities[entity]
-        options = """class_system = %r
+    occurrence_data, entity_data = occurrence_entities[entity]
+    options = """class_system = %r
 target_years = %r
 n_years = %r
 data_directory = %r
@@ -283,10 +282,10 @@ print(entity_data)
 print(entity_column)
 """%(class_system, target_years, n_years, abs_path_data_directory, occurrence_data, entity_data, entity)
     
-        get_ipython().magic('run -i Calculating_Synthetic_Networks_Control_Commands')
+    get_ipython().magic('run -i Calculating_Synthetic_Networks_Control_Commands')
 
 
-# In[9]:
+# In[4]:
 
 class_system = 'IPC'
 output_cooccurrence = 'class_relatedness_networks_cooccurrence_no_preserve_years'

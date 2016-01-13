@@ -1,19 +1,19 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[7]:
 
 import pandas as pd
 from pylab import *
 
 
-# In[17]:
+# In[1]:
 
-# class_system = 'IPC4'
+# class_system = 'USPC'
 # n_controls = 1000
 
 
-# In[ ]:
+# In[2]:
 
 # n_years = 'cumulative'
 # if n_years is None or n_years=='all' or n_years=='cumulative':
@@ -22,7 +22,7 @@ from pylab import *
 #     n_years_label = '%i_years_'%n_years
 
 
-# In[ ]:
+# In[44]:
 
 # output_citations = 'class_relatedness_networks_citations'
 # output_cooccurrence = 'class_relatedness_networks_cooccurrence'
@@ -32,7 +32,7 @@ from pylab import *
 citations_base_file_name = 'synthetic_control_citations_'+n_years_label+'%s'
 
 
-# In[3]:
+# In[45]:
 
 # data_directory = '../data/'
 
@@ -40,13 +40,13 @@ citations_controls_directory = data_directory+'Class_Relatedness_Networks/citati
 coocurrence_controls_directory = data_directory+'Class_Relatedness_Networks/cooccurrence/controls/%s/'%class_system
 
 
-# In[5]:
+# In[46]:
 
 import gc
 from time import time
 
 
-# In[18]:
+# In[47]:
 
 def running_stats(df_name,
                   file_name,
@@ -75,15 +75,15 @@ def running_stats(df_name,
         if M is None:
             M = x
             S = 0
-            all_max = M
-            all_min = M
+            all_max = x
+            all_min = x
             continue
         k = randomization_id+1
         M_previous = M
         M = M_previous.add( x.subtract(M_previous)/k )
         S = ( x.subtract(M_previous).multiply( x.subtract(M) ) ).add(S)
-        all_max = maximum(all_max, M)
-        all_min = minimum(all_min, M)
+        all_max = maximum(all_max, x)
+        all_min = minimum(all_min, x)
         gc.collect()  
     standard_deviation = sqrt(S/(k-1))
 
@@ -119,11 +119,12 @@ if output_citations:
     store.close()
 
 
-# In[7]:
+# In[48]:
 
 if output_cooccurrence:
     M = None
     for entity in ['Firm', 'Country', 'Inventor', 'PID']:
+        print(entity)
         (M_entity, 
          standard_deviation_entity, 
          all_max_entity, 
@@ -167,36 +168,36 @@ if output_cooccurrence:
     store.close()
 
 
-# In[12]:
+# In[61]:
 
 if combine_outputs:
-    
+
     citation_store = pd.HDFStore(data_directory+'Class_Relatedness_Networks/citations/class_relatedness_networks_citations.h5')
     cooccurrence_store = pd.HDFStore(data_directory+'Class_Relatedness_Networks/cooccurrence/class_relatedness_networks_cooccurrence.h5')
-    
+
     M = citation_store['/randomized_mean_%s%s'%(n_years_label, class_system)]
     standard_deviation = citation_store['/randomized_std_%s%s'%(n_years_label, class_system)]
     all_max = citation_store['/randomized_max_%s%s'%(n_years_label, class_system)]
-    all_min = citation_store['/randomized_max_%s%s'%(n_years_label, class_system)]
+    all_min = citation_store['/randomized_min_%s%s'%(n_years_label, class_system)]
     z_scores = citation_store['/empirical_citations_z_scores_%s%s'%(n_years_label, class_system)]
-    
+
     M_c = cooccurrence_store['/randomized_mean_%s%s'%(n_years_label, class_system)]
     standard_deviation_c = cooccurrence_store['/randomized_std_%s%s'%(n_years_label, class_system)]
     all_max_c = cooccurrence_store['/randomized_max_%s%s'%(n_years_label, class_system)]
-    all_min_c = cooccurrence_store['/randomized_max_%s%s'%(n_years_label, class_system)]
+    all_min_c = cooccurrence_store['/randomized_min_%s%s'%(n_years_label, class_system)]
     z_scores_c = cooccurrence_store['/empirical_cooccurrence_z_scores_%s%s'%(n_years_label, class_system)]
-    
+
     for label in M_c.labels:
         M[label] = M_c[label]
         standard_deviation[label] = standard_deviation_c[label]
         all_max[label] = all_max_c[label]
         all_min[label] = all_min_c[label]
         z_scores[label] = z_scores_c[label]
-        
-    
+
+
     combine_store = pd.HDFStore(data_directory+'Class_Relatedness_Networks/class_relatedness_networks.h5', 
                                 mode='a', table=True)
-   
+
     combine_store.put('/randomized_mean_%s%s'%(n_years_label, class_system), M, 'table', append=False)
     combine_store.put('/randomized_std_%s%s'%(n_years_label, class_system), standard_deviation, 'table', append=False)
 

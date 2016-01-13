@@ -36,7 +36,7 @@ except NameError:
 # first_rand_id = None
 # n_randomizations = 1000
 
-if first_rand_id is not None:
+if overwrite:
     runs = range(first_rand_id,first_rand_id+n_randomizations)
 else:
     from os import listdir
