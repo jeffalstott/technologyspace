@@ -1,7 +1,7 @@
 technologyspace
 ====
 This is the code accompanying the paper:
-Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2015). "Mapping Technology Space by Normalizing Technology Relatedness Networks." Available at `arXiv:1509.07285 [physics.soc-ph]`__
+Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2016). "Mapping Technology Space by Normalizing Technology Relatedness Networks." Available at `arXiv:1509.07285 [physics.soc-ph]`__
 
 __ http://arxiv.org/abs/1509.07285
 
