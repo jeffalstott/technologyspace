@@ -8,7 +8,6 @@
 
 # import readline  #Import this here so that later rpy2 actually works on the cluster.
 import pandas as pd
-import seaborn as sns
 from pylab import *
 
 

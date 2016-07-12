@@ -1,18 +1,18 @@
 
 # coding: utf-8
 
-# In[5]:
+# In[1]:
 
 import pandas as pd
 get_ipython().magic('pylab inline')
 
 
-# In[6]:
+# In[2]:
 
 data_directory = '../data/'
 
 
-# In[7]:
+# In[3]:
 
 import os
 def try_to_make_directory(f):
@@ -25,19 +25,19 @@ def try_to_make_directory(f):
 # Organize data for citations, co-classifications and occurrences
 # ===
 
-# In[7]:
+# In[4]:
 
 # print("Organizing Citations")
 # %run -i Organize_Citations.py
 
 
-# In[8]:
+# In[5]:
 
 # print("Organizing Classifications")
 # %run -i Organize_Classifications.py
 
 
-# In[9]:
+# In[6]:
 
 # print("Organizing Occurrences")
 # %run -i Organize_Occurrences.py
@@ -49,9 +49,9 @@ def try_to_make_directory(f):
 # Define classes and entities to analyze
 # ---
 
-# In[10]:
+# In[7]:
 
-class_systems = ['IPC', IPC4', 'USPC',]
+class_systems = ['IPC', 'IPC4', 'USPC']
 occurrence_entities = {'Firm': ('occurrences_organized.h5', 'entity_classes_Firm'),
                        'Inventor': ('occurrences_organized.h5', 'entity_classes_Inventor'),
                        'Country': ('occurrences_organized.h5', 'entity_classes_Country'),
@@ -65,13 +65,17 @@ entity_types = list(occurrence_entities.keys())
 
 # In[8]:
 
-target_years = [2010]
+# target_years = [2010]
+# target_years = 'all'
+target_years_dict = {'IPC': 'all',
+                    'IPC4': [2010],
+                    'USPC': [2010]}
 
 
 # Define number of years of history networks should include
 # ---
 
-# In[6]:
+# In[9]:
 
 n_years = 'all'
 
@@ -81,7 +85,7 @@ else:
     n_years_label = '%i_years_'%n_years
 
 
-# In[9]:
+# In[10]:
 
 citation_metrics = ['Class_Cites_Class_Count',
                     'Class_Cited_by_Class_Count',
@@ -102,12 +106,13 @@ try_to_make_directory(data_directory+'Class_Relatedness_Networks/citations/')
 try_to_make_directory(data_directory+'Class_Relatedness_Networks/cooccurrence/')
 
 
-# In[10]:
+# In[9]:
 
 ### Create empirical networks
 randomized_control = False
 
 for class_system in class_systems:
+    target_years = target_years_dict[class_system]
     print("Calculating for %s------"%class_system)
     ### Calculate citation networks
     get_ipython().magic('run -i Calculating_Citation_Networks.py')
@@ -140,7 +145,7 @@ for class_system in class_systems:
 # Make directories
 # ---
 
-# In[13]:
+# In[11]:
 
 try_to_make_directory(data_directory+'Class_Relatedness_Networks/citations/controls/')
 try_to_make_directory(data_directory+'Class_Relatedness_Networks/cooccurrence/controls/')
@@ -150,11 +155,14 @@ try_to_make_directory(data_directory+'Class_Relatedness_Networks/cooccurrence/co
 # ---
 # (Currently set up to use a cluster)
 
-# In[11]:
+# In[12]:
 
 first_rand_id = 0
 n_randomizations = 1000
 overwrite = True
+
+
+# In[12]:
 
 python_location = '/home/jeffrey_alstott/anaconda3/bin/python'
 from os import path
@@ -164,6 +172,7 @@ abs_path_data_directory = path.abspath(data_directory)+'/'
 try_to_make_directory('jobfiles/')
 
 for class_system in class_systems:
+    target_years = target_years_dict[class_system]
     ### Citations
     try_to_make_directory(data_directory+'Class_Relatedness_Networks/citations/controls/'+class_system)
     basic_program = open('Calculating_Citation_Networks.py', 'r').read()
@@ -206,7 +215,7 @@ print(entity_column)
 # ---
 # Note: Any classes that have no data (i.e. no patents within that class) will create z-scores of 'nan', which will be dropped when saved to the HDF5 file. Therefore, the z-scores data will simply not includes these classes.
 
-# In[ ]:
+# In[13]:
 
 n_controls = n_randomizations
 
@@ -218,6 +227,16 @@ cooccurrence_base_file_name = 'synthetic_control_cooccurrence_'+n_years_label+'%
 
 for class_system in class_systems:
     get_ipython().magic('run -i Calculating_Synthetic_Networks_Integrate_Runs.py')
+
+
+# Regress out popularity from relatedness measures
+# ---
+# First create popularity-by-year networks for all class systems and n_years
+
+# In[1]:
+
+get_ipython().magic('run -i Calculating_Popularity_Networks.py')
+get_ipython().magic('run -i Regressing_Popularity_Out_of_Z_Scores.py')
 
 
 # Organize individual runs of IPC and store separately
@@ -301,6 +320,10 @@ get_ipython().magic('run -i Calculating_Synthetic_Networks_Integrate_Runs.py')
 # ===
 
 # In[ ]:
+
+figures_directory = '../manuscript/figs/'
+try_to_make_directory(figures_directory)
+save_as_manuscript_figures = True
 
 for class_system in class_systems:
     get_ipython().magic('run -i Manuscript_Figures.py')

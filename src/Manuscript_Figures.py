@@ -4,27 +4,27 @@
 # Setup
 # ====
 
-# In[1]:
+# In[345]:
 
-class_system = 'USPC'
-data_directory = '../data/'
+# class_system = 'IPC'
+# data_directory = '../data/'
 target_year = 2010
 
 
-# In[2]:
+# In[346]:
 
 import pandas as pd
 import powerlaw
 get_ipython().magic('pylab inline')
 
 
-# In[3]:
+# In[347]:
 
 import seaborn as sns
 sns.set_color_codes()
 
 
-# In[4]:
+# In[348]:
 
 import pylab
 pylab.rcParams['xtick.major.pad']='4'
@@ -50,7 +50,7 @@ panel_label_font.set_size(10.0)
 panel_label_font.set_family("sans-serif")
 
 
-# In[5]:
+# In[349]:
 
 from scipy.constants import golden
 sns.set_style("darkgrid")
@@ -58,11 +58,11 @@ fig_one_col = 3.4252#3.35
 fig_two_col = 7.007874#6.93
 
 
-# In[6]:
+# In[351]:
 
 figures = []
-figures_directory = '../manuscript/figs/'
-save_as_manuscript_figures = True
+# figures_directory = '../manuscript/figs/'
+# save_as_manuscript_figures = True
 
 
 # In[7]:
@@ -95,7 +95,7 @@ def pretty_tick_labels(ax=None, wraplength=30,axis='y', **kwargs):
         ax.set_yticklabels(["\n".join(textwrap.wrap(y.get_text().replace("_"," "), wraplength)) for y in Y], **kwargs)  
 
 
-# In[8]:
+# In[307]:
 
 def clean_measure_names(df, include_country=False):
     
@@ -131,34 +131,48 @@ def clean_measure_names(df, include_country=False):
     rename_dictionary = {}
     for i in new_metric_names.index:
         rename_dictionary[new_metric_names.ix[i,"Old_Name"]] = new_metric_names.ix[i,"New_Name"]
-    df.rename(rename_dictionary, inplace=True)
+#     df.rename(rename_dictionary, inplace=True)
 
-    for metric in df.items:
-        if metric not in new_metric_names["New_Name"].values:
-            df.drop(metric, inplace=True,axis='items')
+#     for metric in df.items:
+#         if metric not in new_metric_names["New_Name"].values:
+#             df.drop(metric, inplace=True,axis='items')
 #     return
-    return df.reindex_axis(new_metric_names["New_Name"], axis='items')
+    return df.rename(items=rename_dictionary).reindex_axis(new_metric_names["New_Name"], axis='items')
 
 def drop_diagonal(df):
-    for item in df.items:
-        fill_diagonal(df[item].values, 0)
+    if df.ndim==4:
+        for label in df.labels:
+            for item in df.items:
+                fill_diagonal(df[label, item].values, 0)
+    else:
+        for item in df.items:
+            fill_diagonal(df[item].values, 0)
         
 def off_diagonal(df):
     return extract(1 -  eye(len(df)), df)
 
+def remove_empty_classes(df):
+    if df.ndim==4:
+        df_copy = df.sum(axis=0)
+    else:
+        df_copy = df
+    bad_ind = where(sum(df_copy.fillna(0).sum(axis=0)==0)==df_copy.shape[-1])[0]
+    df.drop(df.major_axis[bad_ind], axis='major_axis', inplace=True)
+    df.drop(df.minor_axis[bad_ind], axis='minor_axis', inplace=True)
 
-# In[9]:
+
+# In[352]:
 
 networks_store = pd.HDFStore(data_directory+'Class_Relatedness_Networks/class_relatedness_networks.h5')
 
 
-# In[10]:
+# In[353]:
 
 # networks_store2 = pd.HDFStore(data_directory+'Class_Relatedness_Networks/class_relatedness_networks_backup.h5')
 # networks_store.put('/empirical_USPC', networks_store2['empirical_USPC'], 'table', append=False) 
 
 
-# In[11]:
+# In[368]:
 
 empirical = networks_store['empirical_%s'%class_system].ix[:, target_year]
 empirical = clean_measure_names(empirical)
@@ -263,7 +277,7 @@ xlabel("Year")
 sns.despine()
 
 
-# In[72]:
+# In[21]:
 
 ###Calculate number of patents in each class
 
@@ -288,7 +302,7 @@ patent_count_links = outer(patent_count.values, patent_count.values)
 # cited_patent_count_links = outer(cited_patent_count.values, cited_patent_count.values)
 
 
-# In[73]:
+# In[22]:
 
 fig = figure(figsize=(fig_one_col, fig_one_col/1.618))
 ax = fig.add_subplot(1,1,1)
@@ -375,7 +389,7 @@ def add_panel_label(ax=None,
         transform=ax.transAxes, fontproperties=panel_label_font)
 
 
-# In[172]:
+# In[29]:
 
 sns.set_style("white")
 
@@ -660,7 +674,7 @@ print("In the original network %.2f%% of citations are same-class"%
 # Comparing empirical proximity values to those of randomized controls
 # ===
 
-# In[35]:
+# In[34]:
 
 if class_system == 'IPC':
     controls = pd.read_hdf(data_directory+'Class_Relatedness_Networks/class_relatedness_networks_controls_organized_IPC.h5',
@@ -670,7 +684,7 @@ if class_system == 'IPC':
     controls = controls.ix['Class_CoCitation_Count',:,empirical.major_axis, empirical.minor_axis]
 
 
-# In[36]:
+# In[35]:
 
 if class_system == 'IPC':
     metric = 'Co-Citation'
@@ -785,18 +799,18 @@ if class_system == 'IPC':
 # ---
 # ~70% of links are weaker than would be expected by chance, while the remaining ~20% of links are stronger than expected by chance. Thus, the connectivity network is a sparse network.
 
-# In[37]:
+# In[36]:
 
 store = pd.HDFStore(data_directory+'Class_Relatedness_Networks/class_relatedness_networks.h5')
 
 
-# In[38]:
+# In[37]:
 
 controls_max = clean_measure_names(store['randomized_max_%s'%class_system].ix[:,target_year, empirical.major_axis, empirical.minor_axis])
 controls_min = clean_measure_names(store['randomized_min_%s'%class_system].ix[:,target_year, empirical.major_axis, empirical.minor_axis])
 
 
-# In[39]:
+# In[38]:
 
 summary_table = pd.DataFrame(index=empirical.items,
                             columns=["Below Randomized Controls",
@@ -815,12 +829,12 @@ for metric in empirical.items:
     summary_table.ix[metric, "Within Randomized Controls"] = within_random
 
 
-# In[40]:
+# In[39]:
 
 summary_table
 
 
-# In[41]:
+# In[40]:
 
 fig = figure(figsize=(fig_two_col, fig_two_col/1.618))
 ax = fig.add_subplot(1,1,1)
@@ -860,7 +874,7 @@ if save_as_manuscript_figures:
     savefig(figures_directory+filename+'_'+class_system+'.pdf', bbox_inches='tight')
 
 
-# In[42]:
+# In[41]:
 
 fig = figure(figsize=(fig_one_col, fig_one_col/1.618))
 ax = fig.add_subplot(1,1,1)
@@ -904,7 +918,7 @@ if save_as_manuscript_figures:
     savefig(figures_directory+filename+'_'+class_system+'.pdf')#, bbox_inches='tight')
 
 
-# In[75]:
+# In[42]:
 
 n_positive_links = (empirical>controls_max).sum(axis=1)
 print(n_positive_links.min())
@@ -1012,14 +1026,17 @@ if class_system =='IPC':
 # The Space of Possible Z-scores Growing with Class' Patent Count, Causing Z-Scores to Inflate in Magnitude. We Deflate the Z-Scores to Counteract this Effect.
 # ===
 
-# In[148]:
+# In[369]:
 
 networks_store = pd.HDFStore(data_directory+'Class_Relatedness_Networks/class_relatedness_networks.h5')
 
 
-# In[149]:
+# In[389]:
 
 z_scores = clean_measure_names(networks_store['empirical_z_scores_%s'%class_system].ix[:, target_year])
+if class_system in ['IPC', 'IPC4'] and target_year>2006:
+    z_scores['Co-Classification'] = clean_measure_names(networks_store['empirical_z_scores_%s'%class_system].ix[:, 
+                                                                                                                2006])['Co-Classification']
 z_scores.values[where(z_scores==inf)]=nan 
 z_scores.fillna(0,inplace=True)
 
@@ -1032,7 +1049,7 @@ rand_mean = rand_mean.ix[:, valid_classes, valid_classes]
 rand_std = rand_std.ix[:, valid_classes, valid_classes]
 
 
-# In[150]:
+# In[390]:
 
 patent_count = patent_attributes['Class'].value_counts()
 if class_system=='USPC':
@@ -1042,7 +1059,7 @@ else:
 patent_count_links = outer(patent_count.values, patent_count.values)
 
 
-# In[151]:
+# In[391]:
 
 from scipy.stats import linregress, pearsonr
 
@@ -1073,14 +1090,14 @@ def normalize_out_patent_counts(target, ax=None):
     return target_norm
 
 
-# In[152]:
+# In[392]:
 
 deflated_z_scores = z_scores.copy()
 for item in deflated_z_scores.items:
         deflated_z_scores.ix[item] = normalize_out_patent_counts(z_scores.ix[item])
 
 
-# In[153]:
+# In[374]:
 
 ### X and Y are vectors of classes with different sizes (number of patents). 
 ### The sizes range from 10 to some fraction of N (all patents in all classes).
@@ -1097,7 +1114,7 @@ analytical_z_score = lambda e: (e-randomized_mean)/randomized_std
 #Code from http://stackoverflow.com/a/33162465/897578
 
 
-# In[154]:
+# In[49]:
 
 def z_score_inflation_plot(measure='Direct Citation', model=False, plot_legend=False,
                           linthreshy=.1):
@@ -1277,7 +1294,7 @@ def multicolor_ylabel(ax,list_of_strings,list_of_colors,axis='x',anchorpad=0,**k
         
 
 
-# In[156]:
+# In[50]:
 
 if class_system=='IPC':
     measure = 'Direct Citation'
@@ -1293,7 +1310,7 @@ if class_system=='IPC':
         savefig(figures_directory+filename+'_'+class_system+'.png', bbox_inches='tight', dpi=440)    
 
 
-# In[157]:
+# In[1]:
 
 if class_system=='IPC':
     for measure in z_scores.items:
@@ -1311,16 +1328,16 @@ if class_system=='IPC':
         figures.append(fig)
         if save_as_manuscript_figures:
             filename = 'Z_Score_Inflation_%s'%measure.replace("\n", " ").replace(" ", "_").replace(".", "").replace("'", "").replace(",", "")
-        savefig(figures_directory+filename+'_'+class_system+'.png', bbox_inches='tight', dpi=440)    
+            savefig(figures_directory+filename+'_'+class_system+'.png', bbox_inches='tight', dpi=440)    
 
 
-# In[158]:
+# In[393]:
 
 ### Throw away the undeflated z-scores and use the deflated z-scores from now on.
 z_scores = deflated_z_scores
 
 
-# In[159]:
+# In[361]:
 
 if class_system == 'IPC':
     class_labels = pd.read_csv(data_directory+'class_labels_%s.csv'%class_system).set_index('Class')
@@ -1343,7 +1360,13 @@ if class_system == 'IPC':
 # Correlation of proximity measures with each other, before and after normalizing
 # ===
 
-# In[160]:
+# In[376]:
+
+remove_empty_classes(empirical)
+remove_empty_classes(z_scores)
+
+
+# In[363]:
 
 from scipy.stats import pearsonr, spearmanr
 
@@ -1363,12 +1386,12 @@ class MyFloat(float):
         return _remove_leading_zero(self, string)
 
 
-# In[161]:
+# In[378]:
 
 link_types = empirical.items.values.tolist()#+['Number of Patents']
 
 
-# In[162]:
+# In[126]:
 
 if class_system=='IPC':
     sns.set_style("white")
@@ -1448,7 +1471,7 @@ if class_system=='IPC':
         savefig(figures_directory+filename+'_'+class_system+'.png', dpi=440)#, bbox_inches='tight')
 
 
-# In[163]:
+# In[127]:
 
 if class_system=='IPC':
     sns.set_style("white")
@@ -1528,7 +1551,7 @@ if class_system=='IPC':
         savefig(figures_directory+filename+'_'+class_system+'.png', dpi=440)#, bbox_inches='tight')
 
 
-# In[164]:
+# In[379]:
 
 from scipy.stats import pearsonr
 
@@ -1580,7 +1603,7 @@ def correlate_measures(networks,
     return data_correlations
 
 
-# In[165]:
+# In[395]:
 
 from scipy.stats import spearmanr
 correlations_empirical = correlate_measures(empirical)
@@ -1589,7 +1612,7 @@ correlations_empirical_ranked = correlate_measures(empirical,correlation=spearma
 correlations_z_scores_ranked = correlate_measures(z_scores,correlation=spearmanr)
 
 
-# In[166]:
+# In[396]:
 
 from matplotlib.colors import LogNorm, Normalize
 
@@ -1625,7 +1648,7 @@ def plot_correlations(data_correlations, ax,
     return im
 
 
-# In[167]:
+# In[397]:
 
 sns.set_style("white")
 
@@ -1722,7 +1745,7 @@ figures.append(fig)
 #     savefig(figures_directory+filename+'_'+class_system+'.eps', bbox_inches='tight')
 
 
-# In[168]:
+# In[398]:
 
 sns.set_style("white")
 
@@ -1883,7 +1906,7 @@ fig.subplots_adjust(bottom=.3, wspace=None, top=1, hspace=None, left=None, right
 #     savefig(figures_directory+filename+'_'+class_system+'.eps', bbox_inches='tight')
 
 
-# In[169]:
+# In[403]:
 
 sns.set_style("white")
 
@@ -1987,9 +2010,10 @@ figures.append(fig)
 if save_as_manuscript_figures:
     filename = 'Network_Correlations_Linear'
     savefig(figures_directory+filename+'_'+class_system+'.pdf')#, bbox_inches='tight')
+    savefig(figures_directory+filename+'_'+class_system+'.png', dpi=440)#, bbox_inches='tight')
 
 
-# In[170]:
+# In[386]:
 
 sns.set_style("white")
 
@@ -2037,7 +2061,7 @@ data.plot(kind='bar',
           fontsize=7,
          color=['g', 'b'])
 
-ax.set_xlabel("Measure of Technology Proximity",fontsize=8, labelpad=0)
+ax.set_xlabel("Measure of Technology Proximity",fontsize=8, labelpad=5)
 ax.set_ylabel("Correlation of Count with\nProximity of the Technology Class Pair",
 #               "& their Co-Occurrence in Behavioral Data",
               fontsize=8)
@@ -2059,7 +2083,7 @@ fig.text(.6, .92, 'Count of a Technology Class Pair Co-Occurring\nTogether in Pa
 # title('Count of a Technology Class Pair Co-Occurring\nin Patenting Histories of:', fontsize=8)
 fig.tight_layout(pad=0.1)
 # fig.subplots_adjust(bottom=.24, wspace=None, top=.98, hspace=None, left=None, right=None)
-fig.subplots_adjust(bottom=.31, wspace=None, top=.92, hspace=None, left=None, right=None)
+fig.subplots_adjust(bottom=.35, wspace=None, top=.92, hspace=None, left=None, right=None)
 figures.append(fig)
 if save_as_manuscript_figures:
     filename = 'Relatedness_Behavior_Correlation'
@@ -2068,18 +2092,199 @@ if save_as_manuscript_figures:
 #     savefig(figures_directory+filename+'_'+class_system+'.eps', bbox_inches='tight')
 
 
-# In[171]:
+# In[90]:
+
+if class_system=='IPC': 
+    sns.set_style("white")
+    empirical = networks_store['empirical_%s'%class_system].ix[:, 2006]
+    empirical = clean_measure_names(empirical)
+    drop_diagonal(empirical)
+    correlations_empirical_2006 = correlate_measures(empirical)
+    
+    z_scores_regressed = networks_store['empirical_z_scores_regressed_%s'%class_system].ix[:, 2006]
+    z_scores_regressed = clean_measure_names(z_scores_regressed)
+    drop_diagonal(z_scores_regressed)
+    correlations_normalized_2006 = correlate_measures(z_scores_regressed)
+    
+    
+    fig = figure(figsize=(fig_one_col, fig_one_col))#*1.618))
+
+    nrows = 1
+    ncols = 1
+
+    metrics_for_matrix = ['Direct Citation', 
+                          'Co-Citation',                     
+                          'Cosine Sim.,\nInputs',
+                          'Cosine Sim.,\nOutputs',
+                          'Cosine Sim.,\nInputs, High Res.',
+                          'Cosine Sim.,\nOutputs, High Res.',
+                          'Co-Classification',
+                          ]
+    #                       'Number of Patents']
+
+    ax = fig.add_subplot(nrows, ncols,1)
+
+
+    A = abs(correlations_normalized_2006.ix[metrics_for_matrix][metrics_for_matrix])
+    N = A.shape[0]
+
+    mask =  tri(A.shape[0], k=-1)
+    A = ma.array(A, mask=mask)
+
+    im = ax.imshow(A,
+                   'viridis', 
+                   interpolation='none',
+                    vmin=0, vmax=1,
+                   extent=[0, N, 0, N]
+                  )
+
+    A = abs(correlations_empirical_2006.ix[metrics_for_matrix][metrics_for_matrix])
+    mask =  tri(A.shape[0], k=-1).T
+    A = ma.array(A, mask=mask)
+
+    im = ax.imshow(A,
+                   'viridis', 
+                   interpolation='none',
+                    vmin=0, vmax=1,
+                   extent=[0, N, 0, N]
+                  )
+
+    import matplotlib.patches as patches
+    line = ([(0, N - 1), (0, 0), (N - 1, 0)] +
+            [(N - 1 - i - j, i + 1) for i in range(N - 1) for j in (0, 1)])
+    lines = [line, [(N - x, N - y) for x, y in line]]
+    for line in lines:
+        path = patches.Polygon(line, facecolor='none', edgecolor='black',
+                               linewidth=1, closed=True, joinstyle='round')
+        ax.add_patch(path)
+
+
+    ylabel('Empirical Networks', fontsize=8, labelpad=0, y=.48)
+    xlabel('Normalized Networks', fontsize=8, labelpad=1, x=.54)
+    ax.xaxis.set_label_position("top")
+
+    # ax.set_title('Empirical Networks', fontsize=12,y=1.08, weight='bold')
+
+    margin = 0.09
+    ax.set_xlim(-margin, N + margin)
+    ax.set_ylim(-margin, N + margin)
+    sns.despine(left=True, bottom=True, right=True)
+
+
+    ax.yaxis.tick_right()
+    f = lambda x: x.replace("_", " ")#.replace("\n", " ")
+
+    labels = metrics_for_matrix
+    _ = xticks(.5+arange(shape(labels)[0]), list(map(f, labels)), rotation=90, ha='center', fontsize=7)
+    _ = yticks(.5+arange(shape(labels)[0]), list(map(f, labels))[::-1], va='center', fontsize=7)
+
+
+    ax2 = fig.add_axes([.73, 0.25, 0.2, 0.02])
+    norm = Normalize(vmin=0, vmax=1)
+
+    cbar = mpl.colorbar.ColorbarBase(ax2, 
+                                     cmap=cm.viridis,
+                                     norm=norm,
+                                     orientation='horizontal',
+                                     label='Correlation\n(absolute value)',
+                                    ticks=[0, 0.5, 1])
+
+    cbar.ax.tick_params(labelsize=8)
+    cbar.ax.set_xlabel('Correlation',#\n(absolute value)',
+                       fontsize=8, labelpad=0)
+    cbar.ax.set_xticklabels(["0", ".5", "1"])
+    
+    fig.tight_layout(pad=0)
+    fig.subplots_adjust(bottom=.3, top=.97, wspace=None, hspace=None, left=None, right=.7)
+
+
+    if save_as_manuscript_figures:
+        filename = 'Network_Correlations_Linear_2006'
+        savefig(figures_directory+filename+'_'+class_system+'.pdf')#, bbox_inches='tight')
+
+
+# In[343]:
+
+if class_system=='IPC':
+    
+    def correlate_two_dataframes(i,j):
+        return pearsonr(off_diagonal(i.values), off_diagonal(j.values))
+    
+    empirical = networks_store['empirical_%s'%class_system]
+    
+    z_scores = networks_store['empirical_z_scores_regressed_%s'%class_system]
+    
+    fig = figure(figsize=(fig_two_col, fig_two_col/1.618))
+
+    nrows = 3
+    ncols = 3
+    this_ax = 0
+    
+    for label in link_types:
+        this_ax +=1
+        if label == 'Co-Classification':
+            years = arange(1976+1,2006+1)
+        else:
+            years = arange(1976+1,2010+1)
+        ax = fig.add_subplot(nrows, ncols, this_ax)
+        
+        Rs = [correlate_two_dataframes(clean_measure_names(empirical.ix[:,i])[label], 
+                                       clean_measure_names(empirical.ix[:,i-1])[label])[0] 
+              for i in years]
+        ax.plot(years, Rs, label='Empirical')
+        
+        Rs = [correlate_two_dataframes(clean_measure_names(z_scores.ix[:,i])[label], 
+                                       clean_measure_names(z_scores.ix[:,i-1])[label])[0]         
+              for i in years]
+        ax.plot(years, Rs, label='Normalized')
+        
+        ax.set_title(label, fontsize=10)
+        ax.set_ylim(0,1)
+        sns.despine(ax=ax)
+        if  this_ax>(nrows*(ncols-1)):
+            ax.set_xticks(arange(1980,2010+1,10))
+            ax.set_xticklabels(arange(1980,2010+1,10), fontsize=8)
+        else:
+            ax.set_xticks([])
+            
+        if this_ax%ncols!=1:
+            ax.set_yticks([])
+        else:
+            ax.set_yticks([0,.5,1])
+            ax.set_yticklabels(['0', '.5', '1'], fontsize=8)
+        if this_ax%ncols==1 and this_ax==(nrows+1):
+            ax.set_ylabel("Correlation of Network's Link Weights\nwith those of Previous Year (X-1)")
+        if this_ax==(nrows*ncols-1):
+            ax.set_xlabel("Network Calculated with Patent Data through Year X")
+        
+        if this_ax==(nrows*ncols):
+            ax.legend(title='Network Type', loc='lower right')
+            
+    
+#     fig.tight_layout()
+#     fig.tight_layout(pad=0)
+#     fig.subplots_adjust(hspace=.5)
+    fig.subplots_adjust(bottom=.1, top=.92, wspace=.1, hspace=.8, left=.08, right=.98)
+    if save_as_manuscript_figures:
+        filename = 'Network_Temporal_Stability'
+        savefig(figures_directory+filename+'_'+class_system+'.pdf')#, bbox_inches='tight', pad_inches=0)
+
+
+# In[325]:
 
 if class_system=='IPC':
     networks_store = pd.HDFStore(data_directory+'Class_Relatedness_Networks/class_relatedness_networks.h5')
     empirical = networks_store['empirical_%s'%class_system].ix[:, target_year]
     empirical = clean_measure_names(empirical, include_country=True)
+    remove_empty_classes(empirical)
     drop_diagonal(empirical)
 
     controls = pd.read_hdf(data_directory+'Class_Relatedness_Networks/class_relatedness_networks_controls_organized_%s.h5'%class_system,
                           'controls_%s'%class_system)
+    controls = controls.swapaxes('items', 'labels')    
     controls = clean_measure_names(controls, include_country=True)
-
+    remove_empty_classes(controls)
+    drop_diagonal(controls)
 
     from scipy.stats import percentileofscore
 
@@ -2089,7 +2294,7 @@ if class_system=='IPC':
         print(metric.replace("\n", " "))
         for i in empirical.major_axis:
             for j in empirical.minor_axis:
-                p = percentileofscore(controls.ix[:,metric,i,j],
+                p = percentileofscore(controls.ix[:, metric, i,j],
                                       empirical.ix[metric,i,j],
                                       kind='weak'
                                       )
@@ -2119,78 +2324,61 @@ if class_system=='IPC':
     ax.set_frame_on(False)
     ax.set_xticks([])
     ax.set_yticks([])
-    fig.tight_layout()
+
+
+    fig.tight_layout(pad=0)
+    fig.subplots_adjust(bottom=.1, top=1,left=.43,right=.95, wspace=.3, hspace=.8)
 
     if save_as_manuscript_figures:
         filename = 'Country_CoOccurence_Histograms'
-        savefig(figures_directory+filename+'_'+class_system+'.pdf')#, bbox_inches='tight', pad_inches=0)
+        savefig(figures_directory+filename+'_'+class_system+'.pdf', bbox_inches='tight', pad_inches=0)
+
+
+# In[329]:
+
+fig = figure(figsize=(fig_one_col, fig_one_col*1.618))
+n_ax = len(percentiles.items)
+n_cols = 2
+n_rows = round(n_ax/n_cols)
+this_ax = 0
+for metric in percentiles.items:
+    this_ax += 1
+    ax = fig.add_subplot(n_rows, n_cols, this_ax)
+    ax.hist(percentiles.ix[metric].values.ravel(),bins=100,normed=True)
+    ax.set_title(metric, fontsize=8)
+    ax.set_yticks([])
+    if this_ax>n_ax-2:
+        ax.set_xticks([0,50,100])
+    else:
+        ax.set_xticks([])
+    sns.despine(left=True)
+    xlim(xmin=0, xmax=100)
+    ylim(ymin=0, ymax=.55)
+ax = fig.add_subplot(1,1,1)
+ax.set_xlabel("Empirical Link's Rank Relative\nto Randomized Controls (Percentile)", labelpad=20)
+ax.set_ylabel("Number of Links with that Rank", labelpad=10)
+ax.set_frame_on(False)
+ax.set_xticks([])
+ax.set_yticks([])
+
+
+fig.tight_layout(pad=0)
+fig.subplots_adjust(bottom=.1, top=1,left=.43,right=.95, wspace=.3, hspace=.8)
+
+if save_as_manuscript_figures:
+    filename = 'Country_CoOccurence_Histograms'
+    savefig(figures_directory+filename+'_'+class_system+'.pdf', bbox_inches='tight', pad_inches=0)
 
 
 # In[ ]:
 
 store = pd.HDFStore(data_directory+'occurrences_organized.h5')
 firms = store['entity_classes_Firm_%s'%class_system]
-n_classes = firms['Class_%s'%class_system].nunique()
-
 countries = store['entity_classes_Country_%s'%class_system]
-
 inventors = store['entity_classes_Inventor_%s'%class_system]
 print("%i firms"%firms['Firm'].nunique())
 print("%i inventors"%inventors['Inventor'].nunique())
 print("%i countries"%countries['Country'].nunique())
-
-
-# In[ ]:
-
-# from scipy.misc import comb
-# f = lambda k: comb(n_classes, k)
-
-# fig = figure(figsize=(fig_one_col, fig_one_col*1.618))
-# n_cols = 1
-# n_rows = 3
-# this_ax = 0
-
-# this_ax +=1
-# fig.add_subplot(n_rows, n_cols, this_ax)
-# hist(countries['Country'].value_counts(), bins=50)
-# ylabel("Number of Countries")
-# title("Country Size Distribution")
-# twinx()
-# plot(list(map(f,arange(n_classes))), color='green')
-# xlim(xmin=0, xmax=n_classes)
-# yscale('log')
-
-# #ylabel("Number of Possible Combinations", color='green')
-
-# this_ax +=1
-# fig.add_subplot(n_rows, n_cols, this_ax)
-# hist(firms['Firm'].value_counts(), bins=50)
-# ylabel("Number of Firms")
-# title("Firm Size Distribution")
-# yscale('log')
-# twinx()
-# plot(list(map(f,arange(n_classes))), color='green')
-# xlim(xmin=0, xmax=n_classes)
-# yscale('log')
-
-# ylabel("Number of Possible Combinations", color='green')
-
-# this_ax +=1
-# fig.add_subplot(n_rows, n_cols, this_ax)
-# hist(inventors['Inventor'].value_counts(), bins=50)
-
-# ylabel("Number of Inventors")
-# title("Inventor Size Distribution")
-# yscale('log')
-# twinx()
-# plot(list(map(f,arange(n_classes))), color='green')
-# xlim(xmin=0, xmax=n_classes)
-# #ylabel("Number of Possible Combinations", color='green')
-# yscale('log')
-# xlabel("Number of Classes in History")
-
-# fig.tight_layout()
-# sns.despine(right=False)
 
 
 # In[ ]:
