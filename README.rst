@@ -1,8 +1,9 @@
 technologyspace
 ====
 This is the code accompanying the paper:
-Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2016). "Mapping Technology Space by Normalizing Technology Relatedness Networks." Available at `arXiv:1509.07285 [physics.soc-ph]`__
+Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2017). "Mapping Technology Space by Normalizing Technology Relatedness Networks." Scientometrics. 110(1):443–479. Available at `Scientometrics`__ or on arXiv at `arXiv:1509.07285 [physics.soc-ph]`__
 
+__ https://link.springer.com/article/10.1007/s11192-016-2104-1
 __ http://arxiv.org/abs/1509.07285
 
 How to Use
@@ -19,9 +20,9 @@ __ http://ipython.org/notebook.html
 __ https://github.com/jeffalstott/technologyspace/blob/master/src/Manuscript_Code.ipynb
 __ http://arxiv.org/abs/1509.07285
 
-The raw data files we use are too large to host on Github (>100MB), and we are figuring out an external place to host them. Once this is done, the `Manuscript_Code` notebook will automatically download the raw data before processing it.
+The raw data files we use are too large to host on Github (>100MB), and so are hosted as a 3.6GB ZIP file on the Scientometrics website `here`__.
 
-[More details forthcoming].
+__ https://static-content.springer.com/esm/art%3A10.1007%2Fs11192-016-2107-y/MediaObjects/11192_2016_2107_MOESM3_ESM.zip
 
 Randomization with a cluster
 ====
