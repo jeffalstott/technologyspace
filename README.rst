@@ -3,7 +3,7 @@ technologyspace
 This is the code accompanying the paper:
 Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2017). "Mapping Technology Space by Normalizing Technology Relatedness Networks." Scientometrics. 110(1):443–479. Available at `Scientometrics`__ or on arXiv at `arXiv:1509.07285 [physics.soc-ph]`__
 
-__ https://link.springer.com/article/10.1007/s11192-016-2104-1
+__ https://link.springer.com/article/10.1007/s11192-016-2107-y
 __ http://arxiv.org/abs/1509.07285
 
 How to Use
