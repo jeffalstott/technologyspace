@@ -20,9 +20,9 @@ __ http://ipython.org/notebook.html
 __ https://github.com/jeffalstott/technologyspace/blob/master/src/Manuscript_Code.ipynb
 __ http://arxiv.org/abs/1509.07285
 
-The raw data files we use are too large to host on Github (>100MB), and so are hosted as a 3.6GB ZIP file on the Scientometrics website `here`__.
+The raw data files we use are too large to host on Github (>100MB), and so are hosted as a 3.6GB ZIP file on Dropbox `here`__. Just download and unzip it in `technologyspace` folder, alongside `src` and `manuscript`.
 
-__ https://static-content.springer.com/esm/art%3A10.1007%2Fs11192-016-2107-y/MediaObjects/11192_2016_2107_MOESM3_ESM.zip
+__ https://www.dropbox.com/s/of3gg3gwv0bhtop/data.zip?dl=0
 
 Randomization with a cluster
 ====
