@@ -17,7 +17,7 @@ There are several different possible measures for relatedness, and accordingly t
 
 Each CSV is just a rectangular array (number of classes * number of classes), with the values between the strength of the relatedness between each class. Short names for each class in the IPC and IPC4 systems are included as separate text files.
 
-More sophisticated data is in the HDF5 file `class_relatedness_networks.h5`. This file contains ``pandas`` data frames with information such as:
+More sophisticated data is in the HDF5 file ``class_relatedness_networks.h5``. This file contains ``pandas`` data frames with information such as:
  - empirical networks' values
  - randomized networks' values (mean and standard deviation)
  - empirical networks' values, expressed as z-scores relative to the randomized controls
