@@ -31,7 +31,7 @@ Code
 In this repository are the code to perform the analyses and create the figures in the paper.
 
 How to Use
----
+----
 The code base is organized as a set of `IPython notebooks`__, which are also duplicated as simple Python ``.py`` script files. The only thing you should need to touch directly is the notebook `Manuscript_Code`__ , which walks through all the steps of:
 
 1. organizing the raw empirical data
@@ -49,14 +49,14 @@ The data files we use are too large to host on Github (>100MB), and so are hoste
 __ https://www.dropbox.com/s/of3gg3gwv0bhtop/data.zip?dl=0
 
 Randomization with a cluster
----
+----
 This pipeline involves creating thousands of randomized versions of the historical patent data. In order to do this, we employ a computational cluster running the `PBS`__ job scheduling system. Running this code currently assumes you have one of those. If you are lucky enough to be from the future, maybe you have a big enough machine that you can simply create and analyze thousands of randomized versions of the historical patent data using a simple ``for`` loop. We don't yet support that.
 
 __ https://en.wikipedia.org/wiki/Portable_Batch_System
 
 
 Dependencies
----
+----
  - Python 3.x
  - `powerlaw`__
  - `seaborn`__
