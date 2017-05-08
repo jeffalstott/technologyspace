@@ -44,9 +44,10 @@ __ http://ipython.org/notebook.html
 __ https://github.com/jeffalstott/technologyspace/blob/master/src/Manuscript_Code.ipynb
 __ http://arxiv.org/abs/1509.07285
 
-The data files we use are too large to host on Github (>100MB), and so are hosted as a 3.6GB ZIP file on Dropbox `here`__. Just download and unzip it in ``technologyspace`` folder, alongside ``src`` and ``manuscript``. This file contains both the raw input data and several intermediate data files produced by the pipeline.
+The data files we use are too large to host on Github (>100MB), and so are hosted as a 3.8GB ZIP file on Dropbox `here`__. Just download and unzip it in ``technologyspace`` folder, alongside ``src`` and ``manuscript``. This file contains both the raw input data and several intermediate data files produced by the pipeline.
 
-__ https://www.dropbox.com/s/of3gg3gwv0bhtop/data.zip?dl=0
+__ https://www.dropbox.com/s/fswqlwhapa3gl0y/data.zip?dl=0
+
 
 Randomization with a cluster
 ----
