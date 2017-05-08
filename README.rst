@@ -57,6 +57,7 @@ __ https://en.wikipedia.org/wiki/Portable_Batch_System
 
 Dependencies
 ----
+
  - Python 3.x
  - `powerlaw`__
  - `seaborn`__
@@ -73,7 +74,8 @@ __ https://github.com/andreagobbi/pyBiRewire
 __ http://docs.continuum.io/anaconda/index
 
 Original Data Files
----
+----
+
  - citing_cited.csv
  - PATENT_US_CLASS_SUBCLASSES_1975_2011.csv
  - pid_issdate_ipc.csv
