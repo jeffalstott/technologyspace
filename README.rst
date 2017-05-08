@@ -9,11 +9,19 @@ __ http://arxiv.org/abs/1509.07285
 Data: The Technology Space
 ====
 The data describing the technology space is available in `this Dropbox directory`__. The simplest data are the network as caculated with data from 1975-2010, which is recorded as CSVs. These are in three folders depending on what classification system you're using:
-- "USPC" (the United States Patent Classification System) 
-- "IPC" (the International Patent Classification System, at the 3-digit level)
-- "IPC4" (the International Patent Classification System, at the 4-digit level)
+ - "USPC" (the United States Patent Classification System) 
+ - "IPC" (the International Patent Classification System, at the 3-digit level)
+ - "IPC4" (the International Patent Classification System, at the 4-digit level)
+
+There are several different possible measures for relatedness, and accordingly there are several different CSVs in the folder for each classification system. It was a finding of the paper that after normalization these different measures of relatedness all correlate more, and so we recommend the simplest measure: "Direct Citation" (just the count of the number of citations from patents in one class to patents in the other).
 
 Each CSV is just a rectangular array (number of classes * number of classes), with the values between the strength of the relatedness between each class. Short names for each class in the IPC and IPC4 systems are included as separate text files.
+
+More sophisticated data is in the HDF5 file `class_relatedness_networks.h5`. This file contains ``pandas`` data frames with information such as:
+ - empirical networks' values
+ - randomized networks' values (mean and standard deviation)
+ - empirical networks' values, expressed as z-scores relative to the randomized controls
+ - empirical networks' values, expressed as z-scores relative to the randomized controls, but deflated to counteract the fact that z-scores grow with more patents (this is the data expressed in the simple CSVs)
 
 __ https://www.dropbox.com/sh/lfxay4ztvn21ztf/AAD6aii9HR1cLVhzGywHJVpZa?dl=0
 
@@ -57,6 +65,7 @@ Dependencies
 - - numpy
 - - scipy
 - - matplotlib
+- - pandas
 
 __ https://github.com/jeffalstott/powerlaw
 __ http://stanford.edu/~mwaskom/software/seaborn/
