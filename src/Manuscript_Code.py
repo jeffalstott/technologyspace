@@ -27,20 +27,20 @@ def try_to_make_directory(f):
 
 # In[4]:
 
-# print("Organizing Citations")
-# %run -i Organize_Citations.py
+print("Organizing Citations")
+get_ipython().magic('run -i Organize_Citations.py')
 
 
 # In[5]:
 
-# print("Organizing Classifications")
-# %run -i Organize_Classifications.py
+print("Organizing Classifications")
+get_ipython().magic('run -i Organize_Classifications.py')
 
 
 # In[6]:
 
-# print("Organizing Occurrences")
-# %run -i Organize_Occurrences.py
+print("Organizing Occurrences")
+get_ipython().magic('run -i Organize_Occurrences.py')
 
 
 # Define parameters
@@ -235,8 +235,8 @@ for class_system in class_systems:
 
 # In[1]:
 
-get_ipython().magic('run -i Calculating_Popularity_Networks.py')
-get_ipython().magic('run -i Regressing_Popularity_Out_of_Z_Scores.py')
+# %run -i Calculating_Popularity_Networks.py
+# %run -i Regressing_Popularity_Out_of_Z_Scores.py
 
 
 # Organize individual runs of IPC and store separately

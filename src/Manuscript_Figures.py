@@ -4,27 +4,27 @@
 # Setup
 # ====
 
-# In[9]:
+# In[78]:
 
-# class_system = 'USPC'
-# data_directory = '../data/'
+class_system = 'IPC4'
+data_directory = '../data/'
 target_year = 2010
 
 
-# In[10]:
+# In[79]:
 
 import pandas as pd
 import powerlaw
 get_ipython().magic('pylab inline')
 
 
-# In[11]:
+# In[80]:
 
 import seaborn as sns
 sns.set_color_codes()
 
 
-# In[12]:
+# In[81]:
 
 import pylab
 pylab.rcParams['xtick.major.pad']='4'
@@ -50,7 +50,7 @@ panel_label_font.set_size(10.0)
 panel_label_font.set_family("sans-serif")
 
 
-# In[13]:
+# In[82]:
 
 from scipy.constants import golden
 sns.set_style("darkgrid")
@@ -58,7 +58,7 @@ fig_one_col = 3.4252#3.35
 fig_two_col = 7.007874#6.93
 
 
-# In[14]:
+# In[83]:
 
 def add_panel_label(ax=None,
                letter=None,
@@ -76,14 +76,14 @@ def add_panel_label(ax=None,
         transform=ax.transAxes, fontproperties=panel_label_font)
 
 
-# In[15]:
+# In[84]:
 
 figures = []
 # figures_directory = '../manuscript/figs/'
 # save_as_manuscript_figures = True
 
 
-# In[16]:
+# In[85]:
 
 def pretty_axis_labels(ax=None, wraplength=30, **kwargs):
     import textwrap
@@ -113,7 +113,7 @@ def pretty_tick_labels(ax=None, wraplength=30,axis='y', **kwargs):
         ax.set_yticklabels(["\n".join(textwrap.wrap(y.get_text().replace("_"," "), wraplength)) for y in Y], **kwargs)  
 
 
-# In[17]:
+# In[86]:
 
 def clean_measure_names(df, include_country=False):
     
@@ -179,18 +179,18 @@ def remove_empty_classes(df):
     df.drop(df.minor_axis[bad_ind], axis='minor_axis', inplace=True)
 
 
-# In[18]:
+# In[87]:
 
 networks_store = pd.HDFStore(data_directory+'Class_Relatedness_Networks/class_relatedness_networks.h5')
 
 
-# In[19]:
+# In[11]:
 
 # networks_store2 = pd.HDFStore(data_directory+'Class_Relatedness_Networks/class_relatedness_networks_backup.h5')
 # networks_store.put('/empirical_USPC', networks_store2['empirical_USPC'], 'table', append=False) 
 
 
-# In[20]:
+# In[12]:
 
 empirical = networks_store['empirical_%s'%class_system].ix[:, target_year]
 empirical = clean_measure_names(empirical)
@@ -200,7 +200,7 @@ drop_diagonal(empirical)
 # Size and Time Structure of Citations
 # ===
 
-# In[21]:
+# In[88]:
 
 citations_store = pd.HDFStore(data_directory+'citations_organized.h5')
 
@@ -210,18 +210,18 @@ citations_store = pd.HDFStore(data_directory+'citations_organized.h5')
 citations = citations_store['citations']
 
 
-# In[23]:
+# In[166]:
 
 class_lookup = citations_store['%s_class_lookup'%class_system]
 patent_attributes = citations_store['patent_attributes']
 
 
-# In[24]:
+# In[60]:
 
 print("%i patents"%patent_attributes.shape[0])
 
 
-# In[25]:
+# In[92]:
 
 for column in citations.columns:
     if class_system in column:
@@ -229,7 +229,7 @@ for column in citations.columns:
         citations.rename(columns={column: new_name}, inplace=True)
 
 
-# In[26]:
+# In[169]:
 
 for column in patent_attributes.columns:
     if class_system in column:
@@ -295,7 +295,7 @@ xlabel("Year")
 sns.despine()
 
 
-# In[19]:
+# In[93]:
 
 ###Calculate number of patents in each class
 
@@ -1026,12 +1026,12 @@ if class_system =='IPC':
 # The Space of Possible Z-scores Growing with Class' Patent Count, Causing Z-Scores to Inflate in Magnitude. We Deflate the Z-Scores to Counteract this Effect.
 # ===
 
-# In[27]:
+# In[144]:
 
 networks_store = pd.HDFStore(data_directory+'Class_Relatedness_Networks/class_relatedness_networks.h5')
 
 
-# In[28]:
+# In[145]:
 
 z_scores = clean_measure_names(networks_store['empirical_z_scores_%s'%class_system].ix[:, target_year])
 if class_system in ['IPC',] and target_year>2006:
@@ -1049,7 +1049,7 @@ rand_mean = rand_mean.ix[:, valid_classes, valid_classes]
 rand_std = rand_std.ix[:, valid_classes, valid_classes]
 
 
-# In[29]:
+# In[96]:
 
 patent_count = patent_attributes['Class'].value_counts()
 if class_system=='USPC':
@@ -1059,7 +1059,7 @@ else:
 patent_count_links = outer(patent_count.values, patent_count.values)
 
 
-# In[30]:
+# In[112]:
 
 from scipy.stats import linregress, pearsonr
 
@@ -1077,7 +1077,7 @@ def trend_up(x,y, with_corr=False):
 def trend_down(x,y, with_corr=False):
     return trend(x[y<0], abs(y[y<0]), with_corr)
 
-def normalize_out_patent_counts(target, ax=None):
+def normalize_out_patent_counts(target, ax=None, patent_count_links=patent_count_links):
     x, y = patent_count_links.ravel(), target.values.ravel()    
     f_up = trend_up(x,y)
     f_down = trend_down(x,y)
@@ -1090,7 +1090,7 @@ def normalize_out_patent_counts(target, ax=None):
     return target_norm
 
 
-# In[31]:
+# In[98]:
 
 deflated_z_scores = z_scores.copy()
 for item in deflated_z_scores.items:
@@ -1386,7 +1386,7 @@ class MyFloat(float):
         return _remove_leading_zero(self, string)
 
 
-# In[35]:
+# In[146]:
 
 link_types = empirical.items.values.tolist()#+['Number of Patents']
 
@@ -2210,11 +2210,30 @@ if class_system=='IPC':
     
     def correlate_two_dataframes(i,j):
         return pearsonr(off_diagonal(i.values), off_diagonal(j.values))
+        
+    all_z_scores = networks_store['empirical_z_scores_%s'%class_system]
+    for i in all_z_scores.major_axis:
+        for j in all_z_scores.minor_axis:
+            if i==j:
+                continue
+            all_z_scores.ix['Class_CoOccurrence_Count_PID',:,i,j].fillna(method='pad', inplace=True)
     
+    deflated_z_scores_by_years_dict = {}
+    
+    for year in arange(1976,2010+1):        
+        z_scores =  clean_measure_names(all_z_scores.ix[:, year])
+        patent_count = patent_attributes[patent_attributes['Year']<=year]['Class'].value_counts()
+        patent_count = patent_count.ix[class_lookup.ix[z_scores.major_axis].values].fillna(0)
+        patent_count_links = outer(patent_count.values, patent_count.values)
+
+        deflated_z_scores = z_scores.copy()
+        for item in deflated_z_scores.items:
+                deflated_z_scores.ix[item] = normalize_out_patent_counts(z_scores.ix[item], 
+                                                                         patent_count_links=patent_count_links)
+        deflated_z_scores_by_years_dict[year] = deflated_z_scores.fillna(0)
+        
     empirical = networks_store['empirical_%s'%class_system]
-    
-    z_scores = networks_store['empirical_z_scores_regressed_%s'%class_system]
-    
+
     fig = figure(figsize=(fig_two_col, fig_two_col/1.618))
 
     nrows = 3
@@ -2234,8 +2253,8 @@ if class_system=='IPC':
               for i in years]
         ax.plot(years, Rs, label='Empirical')
         
-        Rs = [correlate_two_dataframes(clean_measure_names(z_scores.ix[:,i])[label], 
-                                       clean_measure_names(z_scores.ix[:,i-1])[label])[0]         
+        Rs = [correlate_two_dataframes(deflated_z_scores_by_years_dict[i][label], 
+                                       deflated_z_scores_by_years_dict[i-1][label])[0]         
               for i in years]
         ax.plot(years, Rs, label='Normalized')
         
