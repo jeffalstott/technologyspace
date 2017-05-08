@@ -1,6 +1,6 @@
 technologyspace
 ====
-This is the code accompanying the paper:
+This is the data and code accompanying the paper:
 Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2017). "Mapping Technology Space by Normalizing Technology Relatedness Networks." Scientometrics. 110(1):443–479. Available at `Scientometrics`__ or on arXiv at `arXiv:1509.07285 [physics.soc-ph]`__
 
 __ https://link.springer.com/article/10.1007/s11192-016-2107-y
@@ -20,7 +20,7 @@ __ http://ipython.org/notebook.html
 __ https://github.com/jeffalstott/technologyspace/blob/master/src/Manuscript_Code.ipynb
 __ http://arxiv.org/abs/1509.07285
 
-The raw data files we use are too large to host on Github (>100MB), and so are hosted as a 3.6GB ZIP file on Dropbox `here`__. Just download and unzip it in `technologyspace` folder, alongside `src` and `manuscript`.
+The raw data files we use are too large to host on Github (>100MB), and so are hosted as a 3.6GB ZIP file on Dropbox `here`__. Just download and unzip it in ``technologyspace`` folder, alongside ``src`` and ``manuscript``.
 
 __ https://www.dropbox.com/s/of3gg3gwv0bhtop/data.zip?dl=0
 
