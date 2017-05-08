@@ -6,8 +6,24 @@ Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2017). "Mapping Technolog
 __ https://link.springer.com/article/10.1007/s11192-016-2107-y
 __ http://arxiv.org/abs/1509.07285
 
-How to Use
+Data: The Technology Space
 ====
+The data describing the technology space is available in `this Dropbox directory`__. The simplest data are the network as caculated with data from 1975-2010, which is recorded as CSVs. These are in three folders depending on what classification system you're using:
+- "USPC" (the United States Patent Classification System) 
+- "IPC" (the International Patent Classification System, at the 3-digit level)
+- "IPC4" (the International Patent Classification System, at the 4-digit level)
+
+Each CSV is just a rectangular array (number of classes * number of classes), with the values between the strength of the relatedness between each class. Short names for each class in the IPC and IPC4 systems are included as separate text files.
+
+__ https://www.dropbox.com/sh/lfxay4ztvn21ztf/AAD6aii9HR1cLVhzGywHJVpZa?dl=0
+
+
+Code
+====
+In this repository are the code to perform the analyses and create the figures in the paper.
+
+How to Use
+---
 The code base is organized as a set of `IPython notebooks`__, which are also duplicated as simple Python ``.py`` script files. The only thing you should need to touch directly is the notebook `Manuscript_Code`__ , which walks through all the steps of:
 
 1. organizing the raw empirical data
@@ -25,14 +41,14 @@ The data files we use are too large to host on Github (>100MB), and so are hoste
 __ https://www.dropbox.com/s/of3gg3gwv0bhtop/data.zip?dl=0
 
 Randomization with a cluster
-====
+---
 This pipeline involves creating thousands of randomized versions of the historical patent data. In order to do this, we employ a computational cluster running the `PBS`__ job scheduling system. Running this code currently assumes you have one of those. If you are lucky enough to be from the future, maybe you have a big enough machine that you can simply create and analyze thousands of randomized versions of the historical patent data using a simple ``for`` loop. We don't yet support that.
 
 __ https://en.wikipedia.org/wiki/Portable_Batch_System
 
 
 Dependencies
-====
+---
 - Python 3.x
 - `powerlaw`__
 - `seaborn`__
@@ -48,7 +64,7 @@ __ https://github.com/andreagobbi/pyBiRewire
 __ http://docs.continuum.io/anaconda/index
 
 Original Data Files
-====
+---
 - citing_cited.csv
 - PATENT_US_CLASS_SUBCLASSES_1975_2011.csv
 - pid_issdate_ipc.csv
