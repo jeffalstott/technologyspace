@@ -55,3 +55,8 @@ Original Data Files
 - disamb_data_ipc_citations_2.csv
 - pnts_multiple_ipcs_76_06_valid_ipc.csv
 - patent_ipc_1976_2010.csv
+
+Contact
+====
+Please contact the authors if you have questions/comments/concerns/stories:
+jeffalstott at gmail
