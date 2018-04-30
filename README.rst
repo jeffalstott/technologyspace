@@ -6,9 +6,9 @@ Jeff Alstott, Giorgio Triulzi, Bowen Yan, Jianxi Luo. (2017). "Mapping Technolog
 __ https://link.springer.com/article/10.1007/s11192-016-2107-y
 __ http://arxiv.org/abs/1509.07285
 
-Data: The Technology Space
+The Technology Space
 ====
-The data describing the technology space is available in `this Dropbox directory`__. The simplest data are the network as caculated with data from 1975-2010, which is recorded as CSVs. These are in three folders depending on what classification system you're using:
+The data describing the technology space are available on `Zenodo here`__ in output_data-technology_space.zip. The simplest data are the network as caculated with data from 1975-2010, which is recorded as CSVs. These are in three folders depending on what classification system you're using:
  - "USPC" (the United States Patent Classification System) 
  - "IPC" (the International Patent Classification System, at the 3-digit level)
  - "IPC4" (the International Patent Classification System, at the 4-digit level)
@@ -23,10 +23,10 @@ More sophisticated data is in the HDF5 file ``class_relatedness_networks.h5``. T
  - empirical networks' values, expressed as z-scores relative to the randomized controls
  - empirical networks' values, expressed as z-scores relative to the randomized controls, but deflated to counteract the fact that z-scores grow with more patents (this is the data expressed in the simple CSVs)
 
-__ https://www.dropbox.com/sh/lfxay4ztvn21ztf/AAD6aii9HR1cLVhzGywHJVpZa?dl=0
+__ https://zenodo.org/record/1237728
 
 
-Code
+Code and Input Data
 ====
 In this repository are the code to perform the analyses and create the figures in the paper.
 
@@ -44,9 +44,9 @@ __ http://ipython.org/notebook.html
 __ https://github.com/jeffalstott/technologyspace/blob/master/src/Manuscript_Code.ipynb
 __ http://arxiv.org/abs/1509.07285
 
-The data files we use are too large to host on Github (>100MB), and so are hosted as a 3.8GB ZIP file on Dropbox `here`__. Just download and unzip it in ``technologyspace`` folder, alongside ``src`` and ``manuscript``. This file contains both the raw input data and several intermediate data files produced by the pipeline.
+The data files we use are too large to host on Github (>100MB), and so are hosted as a 1.9GB ZIP file on Zenodo `here`__ in input_data-technology_space.zip. Just download and unzip it in ``technologyspace`` folder, alongside ``src`` and ``manuscript``. This file contains both the raw input data and several intermediate data files produced by the pipeline.
 
-__ https://www.dropbox.com/s/fswqlwhapa3gl0y/data.zip?dl=0
+__ https://zenodo.org/record/1237728
 
 
 Randomization with a cluster
@@ -87,4 +87,5 @@ Original Data Files
 Contact
 ====
 Please contact the authors if you have questions/comments/concerns/stories:
-jeffalstott at gmail
+ - gtriulzi at mit dot edu
+ - jeffalstott at gmail dot com
